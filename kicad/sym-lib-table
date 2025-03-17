@@ -11,4 +11,5 @@
   (lib (name "Capacitors")(type "KiCad")(uri "${SPINALI_SYMBOL_DIR}/Capacitors.kicad_sym")(options "")(descr ""))
   (lib (name "Diodes")(type "KiCad")(uri "${SPINALI_SYMBOL_DIR}/Diodes.kicad_sym")(options "")(descr ""))
   (lib (name "Resistors")(type "KiCad")(uri "${SPINALI_SYMBOL_DIR}/Resistors.kicad_sym")(options "")(descr ""))
+  (lib (name "Connectors")(type "KiCad")(uri "${SPINALI_SYMBOL_DIR}/Connectors.kicad_sym")(options "")(descr ""))
 )
