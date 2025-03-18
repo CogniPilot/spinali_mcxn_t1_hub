@@ -139,6 +139,44 @@
 		)
 	)
 	(sheet
+		(at 139.7 140.97)
+		(size 27.94 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a20b3bd6-c7b2-46ff-9591-ca80b372e5a4")
+		(property "Sheetname" "Ethernet PHY"
+			(at 139.7 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet_phy.kicad_sch"
+			(at 139.7 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "spinali_mcxn_t1_sensor_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 85.09 106.68)
 		(size 34.29 22.86)
 		(fields_autoplaced yes)

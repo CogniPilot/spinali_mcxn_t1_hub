@@ -13,4 +13,6 @@
   (lib (name "Capacitors")(type "KiCad")(uri "${SPINALI_FOOTPRINT_DIR}/Capacitors.pretty")(options "")(descr ""))
   (lib (name "Connectors")(type "KiCad")(uri "${SPINALI_FOOTPRINT_DIR}/Connectors.pretty")(options "")(descr ""))
   (lib (name "Switches")(type "KiCad")(uri "${SPINALI_FOOTPRINT_DIR}/Switches.pretty")(options "")(descr ""))
+  (lib (name "Crystals")(type "KiCad")(uri "${SPINALI_FOOTPRINT_DIR}/Crystals.pretty")(options "")(descr ""))
+  (lib (name "TVS")(type "KiCad")(uri "${SPINALI_FOOTPRINT_DIR}/TVS.pretty")(options "")(descr ""))
 )
