@@ -17523,7 +17523,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5uH"
+		(property "Value" "1uH"
 			(at 264.16 138.43 90)
 			(effects
 				(font
@@ -17531,7 +17531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -17540,7 +17540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe252012p.ashx"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2268/MCKK1608T1R0MN_SS.pdf"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -17549,7 +17549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FIXED IND 1.5UH 2.6A 0.06OHM SMD"
+		(property "Description" "1.3A 1uH ±20% 2A 123mΩ 0603 Inductors (SMD) ROHS"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -17558,7 +17558,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Murata Electronics"
+		(property "MF" "Taiyo Yuden"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -17567,7 +17567,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "DFE252012P-1R5M=P2"
+		(property "MFPN" "MCKK1608T1R0MN"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -17576,7 +17576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
+		(property "Supplier" "JLCPCB"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -17585,43 +17585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "490-10648-1-ND"
-			(at 264.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 264.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 264.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 264.16 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "Supplier PN" "C5669778"
 			(at 264.16 140.97 0)
 			(effects
 				(font
