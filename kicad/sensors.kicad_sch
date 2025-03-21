@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MR-MCXN-T1 Sensor hub")
-		(date "2025-01-17")
+		(date "2025-03-20")
 		(rev "X0")
 		(company "NXP SEMICONDUCTORS B.V.")
 		(comment 1 "CLASSIFICATION: INTERNAL USE ONLY")
@@ -1101,6 +1101,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1222,18 +1342,6 @@
 		(color 0 0 0 0)
 		(uuid "60615482-c23b-4bd4-8b1e-bf27f5340387")
 	)
-	(junction
-		(at 73.66 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d298319d-b0ee-4f39-8ed5-5ddd38876c7f")
-	)
-	(junction
-		(at 100.33 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6079f1c-bdfc-486d-97da-17ccbfde6528")
-	)
 	(no_connect
 		(at 109.22 57.15)
 		(uuid "011df43e-82fe-4994-95b5-94a0ae15beeb")
@@ -1268,13 +1376,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 168.91) (xy 130.81 168.91)
+			(xy 113.03 168.91) (xy 115.57 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "029dd128-dfca-4592-88b3-22e53853350b")
+	)
+	(wire
+		(pts
+			(xy 72.39 104.14) (xy 73.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06fa8b17-43e0-4c18-9bdf-64633c58d845")
 	)
 	(wire
 		(pts
@@ -1288,16 +1406,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 104.14) (xy 77.47 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fabe240-dc5d-4e2d-875c-47c4952bf3a3")
-	)
-	(wire
-		(pts
 			(xy 135.89 34.29) (xy 135.89 35.56)
 		)
 		(stroke
@@ -1308,17 +1416,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 104.14) (xy 77.47 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fada988-3b75-4fbb-b461-524ec24e70f8")
-	)
-	(wire
-		(pts
-			(xy 38.1 54.61) (xy 53.34 54.61)
+			(xy 50.8 54.61) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1446,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 52.07) (xy 53.34 52.07)
+			(xy 50.8 52.07) (xy 53.34 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1466,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 166.37) (xy 130.81 166.37)
+			(xy 77.47 104.14) (xy 77.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ef06d0-dd86-4117-bdea-95da46b30e25")
+	)
+	(wire
+		(pts
+			(xy 113.03 166.37) (xy 115.57 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1486,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 46.99) (xy 53.34 46.99)
+			(xy 50.8 46.99) (xy 53.34 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 113.03) (xy 59.69 113.03)
+			(xy 57.15 113.03) (xy 59.69 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1398,13 +1506,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 118.11 104.14)
+			(xy 73.66 104.14) (xy 73.66 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e355f7c-0c1f-4df3-a519-487bdb2529e1")
+		(uuid "70ac29fd-24cf-49c4-b897-03b9372a4f2e")
 	)
 	(wire
 		(pts
@@ -1428,16 +1536,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 102.87) (xy 100.33 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c727313-98f0-4deb-8154-8ad87401d77d")
-	)
-	(wire
-		(pts
 			(xy 57.15 160.02) (xy 57.15 161.29)
 		)
 		(stroke
@@ -1448,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 49.53) (xy 53.34 49.53)
+			(xy 50.8 49.53) (xy 53.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1495,16 +1593,6 @@
 			(type default)
 		)
 		(uuid "8562b266-c3ee-41c9-915c-068bd9b5af8c")
-	)
-	(wire
-		(pts
-			(xy 73.66 102.87) (xy 73.66 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a095a1-8b64-44c4-9cc7-34f7fb8b7a42")
 	)
 	(wire
 		(pts
@@ -1598,6 +1686,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 104.14) (xy 77.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4cd93e7-d648-424c-b915-b17582a0798e")
+	)
+	(wire
+		(pts
 			(xy 118.11 34.29) (xy 135.89 34.29)
 		)
 		(stroke
@@ -1615,16 +1713,6 @@
 			(type default)
 		)
 		(uuid "ae0111ac-53a6-4525-ac29-f20185820211")
-	)
-	(wire
-		(pts
-			(xy 100.33 105.41) (xy 100.33 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b433c6cf-33a9-4fa4-99cc-610096942956")
 	)
 	(wire
 		(pts
@@ -1668,16 +1756,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 104.14) (xy 118.11 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d51eb1ba-693c-478e-9472-b820029633a3")
-	)
-	(wire
-		(pts
 			(xy 58.42 121.92) (xy 59.69 121.92)
 		)
 		(stroke
@@ -1688,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 115.57) (xy 59.69 115.57)
+			(xy 57.15 115.57) (xy 59.69 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 54.61) (xy 124.46 54.61)
+			(xy 109.22 54.61) (xy 111.76 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1718,16 +1796,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 104.14) (xy 73.66 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3f0554-5015-40f4-a683-e9f56fb1554e")
-	)
-	(wire
-		(pts
 			(xy 109.22 46.99) (xy 110.49 46.99)
 		)
 		(stroke
@@ -1736,95 +1804,194 @@
 		)
 		(uuid "ffe575cc-1d6c-4250-96d6-8d5b802c5e08")
 	)
-	(label "P3_16{slash}FC8_P2"
-		(at 38.1 52.07 0)
+	(global_label "P3_15{slash}FC8_P1"
+		(shape bidirectional)
+		(at 50.8 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "15c8c269-0bd1-4b3d-a696-2f0e22482df2")
+		(uuid "38cacf16-4e54-402b-b18e-b96023e1c5f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.4917 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "P0_20{slash}I3C0_SDA"
-		(at 130.81 166.37 180)
+	(global_label "P3_22{slash}FC8_P6"
+		(shape bidirectional)
+		(at 111.76 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "183f02df-07f6-43a7-bfa0-805cae9041fa")
+		(uuid "4ec5f7bf-0a1d-4252-88fe-03d2ca4405d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.0683 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(label "P3_22{slash}FC8_P6"
-		(at 124.46 54.61 180)
+	(global_label "P0_20{slash}I3C0_SDA"
+		(shape bidirectional)
+		(at 115.57 166.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "333b1670-2eba-49f2-978f-12d4682cc9d0")
+		(uuid "4f6e3681-ec82-4029-b166-a86700ca0ad4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.6926 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(label "P0_21{slash}I3C0_SCL"
-		(at 41.91 115.57 0)
+	(global_label "P0_21{slash}I3C0_SCL"
+		(shape bidirectional)
+		(at 115.57 168.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "49a4a80c-da07-44cc-ba9a-4da194ba4b2a")
+		(uuid "60733999-c9ae-4b72-b34e-e21497cddbe7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.6321 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(label "P0_21{slash}I3C0_SCL"
-		(at 130.81 168.91 180)
+	(global_label "P3_14{slash}FC8_P0"
+		(shape bidirectional)
+		(at 50.8 49.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "5d340ab1-6aa3-4f3c-97d9-d755a4100fe5")
+		(uuid "8c448cf9-17f1-4083-b5c6-cd6022a2b4a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.4917 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "P0_20{slash}I3C0_SDA"
-		(at 41.91 113.03 0)
+	(global_label "P0_20{slash}I3C0_SDA"
+		(shape bidirectional)
+		(at 57.15 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "798065b9-e655-4734-96fe-2f3e6c247828")
+		(uuid "a70207a3-218a-470a-8fbb-adf59d39e685")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.0274 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "P3_17{slash}FC8_P3"
-		(at 38.1 54.61 0)
+	(global_label "P3_17{slash}FC8_P3"
+		(shape bidirectional)
+		(at 50.8 54.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "9e7b5d57-6c5c-41f8-b937-cc70d20bab27")
+		(uuid "b49b51e8-2562-48ab-81d6-3f153bb73dad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.4917 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "P3_15{slash}FC8_P1"
-		(at 38.1 46.99 0)
+	(global_label "P0_21{slash}I3C0_SCL"
+		(shape bidirectional)
+		(at 57.15 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "c50fb043-0610-4f50-a2dc-a3fd4a6281c5")
+		(uuid "cc3ba6ac-2f39-471d-bc6c-6b4db41feb91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.0879 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "P3_14{slash}FC8_P0"
-		(at 38.1 49.53 0)
+	(global_label "P3_16{slash}FC8_P2"
+		(shape bidirectional)
+		(at 50.8 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "d75eeaa1-46db-4dc2-b6a2-c4fdafdeead0")
+		(uuid "fd7abcf9-9df5-490f-b769-c57de2d76fd5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.4917 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -1836,7 +2003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d75a0e9-cc84-4ab1-92d0-a267c5e1143b")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0119"
 			(at 88.9 162.56 0)
 			(effects
 				(font
@@ -1886,7 +2053,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0146")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -1902,7 +2069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ecb3f6e-5f41-4a1c-af7b-776a70addd9a")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0105"
 			(at 118.11 49.53 0)
 			(effects
 				(font
@@ -1952,7 +2119,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0162")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -1968,7 +2135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "141914b7-4165-48bc-9dfe-8ae1ab5cf315")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0107"
 			(at 110.49 49.53 0)
 			(effects
 				(font
@@ -2018,7 +2185,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0148")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -2034,7 +2201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1444ea14-0eab-4e7d-a1e3-f92e303f2b91")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0116"
 			(at 91.44 137.16 0)
 			(effects
 				(font
@@ -2084,7 +2251,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0153")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -2100,7 +2267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a539899-5d89-4277-9263-31e51fb24d5b")
-		(property "Reference" "U4"
+		(property "Reference" "U9"
 			(at 81.28 38.1 0)
 			(effects
 				(font
@@ -2126,7 +2293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf?srsltid=AfmBOooPw_Tq26gEsnh7eZszXCCPwOXnL2LBzgImG8KrN44Y6VouFdER"
 			(at 99.314 122.428 0)
 			(effects
 				(font
@@ -2135,52 +2302,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 AXIS MEMES SENSOR"
 			(at 99.314 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "0.2"
-			(at 99.06 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 99.314 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.86mm"
-			(at 99.06 130.556 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TDK InvenSense"
-			(at 99.06 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -2212,6 +2339,42 @@
 			)
 		)
 		(property "Supplier PN" "C22459454"
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 99.06 60.96 0)
 			(effects
 				(font
@@ -2265,7 +2428,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "U4")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2281,7 +2444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28737de8-67ee-416e-9362-65e28f1ce023")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0108"
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -2331,7 +2494,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0160")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -2347,7 +2510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2eca4f7b-ffba-414b-9aec-f3405f74de9f")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0123"
 			(at 115.57 179.07 0)
 			(effects
 				(font
@@ -2397,7 +2560,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0151")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -2413,7 +2576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "403d9e58-9b5c-443c-a363-e59c2f242f11")
-		(property "Reference" "C75"
+		(property "Reference" "C60"
 			(at 95.25 125.7299 0)
 			(effects
 				(font
@@ -2494,6 +2657,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7d1a173-7c2e-4200-bc13-58ff901abf97")
 		)
@@ -2503,7 +2702,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "C75")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "416fb7f1-ead0-4da4-9c15-bbf94381d325")
-		(property "Reference" "C77"
+		(property "Reference" "C59"
 			(at 121.92 107.9499 0)
 			(effects
 				(font
@@ -2600,6 +2799,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbbde759-3164-442e-aa2f-4c4cbda45ddf")
 		)
@@ -2609,7 +2844,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "C77")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -2625,7 +2860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "456723d2-79ae-4dec-8005-69dbcf430494")
-		(property "Reference" "C79"
+		(property "Reference" "C57"
 			(at 139.7 38.0999 0)
 			(effects
 				(font
@@ -2706,6 +2941,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2afb0c2f-a107-4ddd-a272-a83e7ed3fd9d")
 		)
@@ -2715,7 +2986,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "C79")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -2731,7 +3002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "503a1d70-35c3-45e9-917b-1bb179bdd6ef")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0113"
 			(at 100.33 119.38 0)
 			(effects
 				(font
@@ -2781,7 +3052,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0155")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -2797,7 +3068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "530d9c22-7f40-494d-8528-05834716e487")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0106"
 			(at 135.89 49.53 0)
 			(effects
 				(font
@@ -2847,7 +3118,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0163")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -2863,7 +3134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5769842a-62c8-492a-a71a-ed1aab11887e")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0114"
 			(at 118.11 119.38 0)
 			(effects
 				(font
@@ -2913,7 +3184,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0156")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -2929,7 +3200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d9341a0-4d1e-4c53-91e8-4247f6fd229e")
-		(property "Reference" "C73"
+		(property "Reference" "C62"
 			(at 78.74 163.8299 0)
 			(effects
 				(font
@@ -3010,6 +3281,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 74.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fad4cf75-53f6-4571-af7a-059dfa2010f3")
 		)
@@ -3019,7 +3326,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "C73")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -3027,7 +3334,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 73.66 102.87 0)
+		(at 72.39 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3035,8 +3342,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8474a691-cc9e-4c3e-93c5-56439d53702c")
-		(property "Reference" "#PWR0147"
-			(at 73.66 106.68 0)
+		(property "Reference" "#PWR0109"
+			(at 72.39 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +3352,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 73.66 97.79 0)
+			(at 72.39 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 102.87 0)
+			(at 72.39 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 102.87 0)
+			(at 72.39 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 73.66 102.87 0)
+			(at 72.39 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3392,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0147")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -3101,7 +3408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89adb648-eeb0-4198-ba43-18b2396c800e")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0120"
 			(at 114.3 162.56 0)
 			(effects
 				(font
@@ -3151,7 +3458,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0145")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -3166,7 +3473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93e7806b-7c5a-489f-8509-c520245ca8c8")
-		(property "Reference" "C74"
+		(property "Reference" "C61"
 			(at 60.96 163.8299 0)
 			(effects
 				(font
@@ -3247,6 +3554,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67615c40-b8ea-44fa-9f54-f673184c7149")
 		)
@@ -3256,7 +3599,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "C74")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -3272,7 +3615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94122a77-a130-42c4-b309-91f664423c24")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0117"
 			(at 73.66 138.43 0)
 			(effects
 				(font
@@ -3322,7 +3665,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0152")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -3419,6 +3762,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 90.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 90.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 90.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 90.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "13359549-4122-44af-a48b-379a0aa2bfa0")
 		)
@@ -3468,7 +3847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b6695d3-b490-4b55-9876-cfe814fe0be8")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0121"
 			(at 57.15 175.26 0)
 			(effects
 				(font
@@ -3518,7 +3897,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0158")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -3534,7 +3913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a12129e3-b54b-40ca-a2cc-ffe372ca38a8")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0104"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -3584,7 +3963,73 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0161")
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 118.11 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4fae35a-6fc4-46f2-9524-797de6113607")
+		(property "Reference" "#PWR0112"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9e51506-b2f3-494f-acf4-8df0776f228e")
+		)
+		(instances
+			(project "spinali_mcxn_t1_sensor_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -3600,7 +4045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a55cfe41-c7f8-4064-be08-13b9b6391af8")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0122"
 			(at 74.93 175.26 0)
 			(effects
 				(font
@@ -3650,7 +4095,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0149")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -3666,7 +4111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6fe2c67-05ee-48e3-9ea4-4a58f504580c")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0124"
 			(at 88.9 181.61 0)
 			(effects
 				(font
@@ -3716,7 +4161,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0150")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -3732,7 +4177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c876190a-83af-4c7b-a374-d63e6daed2a0")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0115"
 			(at 58.42 129.54 0)
 			(effects
 				(font
@@ -3782,7 +4227,73 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0154")
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 78.74 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cab06eef-79f2-49f3-b98d-b608570d2920")
+		(property "Reference" "#PWR0110"
+			(at 78.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 78.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e231b32-9a30-4e1a-a06e-926c18cf8595")
+		)
+		(instances
+			(project "spinali_mcxn_t1_sensor_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -3798,7 +4309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e263357f-ce63-4f5a-971a-b889e1900b2f")
-		(property "Reference" "C76"
+		(property "Reference" "C58"
 			(at 104.14 107.9499 0)
 			(effects
 				(font
@@ -3879,6 +4390,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33763dd9-7041-43f5-a1fd-0d754fd89d03")
 		)
@@ -3888,7 +4435,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "C76")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -3896,7 +4443,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 100.33 102.87 0)
+		(at 100.33 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3904,8 +4451,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e57b2a7d-62f3-4b89-9099-e9e007b5bb58")
-		(property "Reference" "#PWR0157"
-			(at 100.33 106.68 0)
+		(property "Reference" "#PWR0111"
+			(at 100.33 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +4461,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 100.33 97.79 0)
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 102.87 0)
+			(at 100.33 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +4478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 102.87 0)
+			(at 100.33 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +4487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 100.33 102.87 0)
+			(at 100.33 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +4501,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0157")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3970,7 +4517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7f9a801-f130-4b8f-914b-93c29d2d0a07")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0118"
 			(at 57.15 162.56 0)
 			(effects
 				(font
@@ -4020,7 +4567,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "#PWR0159")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -4036,7 +4583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb3979b5-3970-4499-a8c3-ab497330d4e3")
-		(property "Reference" "C78"
+		(property "Reference" "C56"
 			(at 121.92 38.0999 0)
 			(effects
 				(font
@@ -4117,6 +4664,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6cfd94a1-4357-430a-91a0-b4248cf9cdd7")
 		)
@@ -4126,7 +4709,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a28c0fd8-aeac-4bef-8f3f-cec5db09a131"
-					(reference "C78")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -4215,6 +4798,42 @@
 			)
 		)
 		(property "Supplier PN" "C17225907"
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 59.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 59.69 113.03 0)
 			(effects
 				(font
