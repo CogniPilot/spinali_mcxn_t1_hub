@@ -5,8 +5,8 @@
 	(uuid "8b469ec1-e800-4d46-8a32-95d77ceae6db")
 	(paper "A4")
 	(title_block
-		(title "MR-MCXN-T1 Sensor hub")
-		(date "2025-03-20")
+		(title "MR-MCXN-T1 Sensor Node")
+		(date "2025-03-28")
 		(rev "X0")
 		(company "NXP SEMICONDUCTORS B.V.")
 		(comment 1 "CLASSIFICATION: INTERNAL USE ONLY")
@@ -14,9 +14,21 @@
 		(comment 4 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
 	)
 	(lib_symbols)
-	(text "https://github.com/CDFER/JLCPCB-Kicad-Library/tree/main"
+	(text "MR-MCXN-T1 Sensor Node"
 		(exclude_from_sim no)
-		(at 121.158 191.262 0)
+		(at 154.94 91.186 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "b0600df4-4b6d-40da-9113-b7d84967cecb")
+	)
+	(text "Library used: https://github.com/CDFER/JLCPCB-Kicad-Library/tree/main"
+		(exclude_from_sim no)
+		(at 153.924 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25,8 +37,8 @@
 		(uuid "c7daae81-4b6d-4b02-8706-d9b961b70b9c")
 	)
 	(sheet
-		(at 85.09 63.5)
-		(size 34.29 30.48)
+		(at 50.8 128.27)
+		(size 40.64 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -37,7 +49,7 @@
 		)
 		(uuid "1eea4502-3ae6-49a1-b28d-d3586979946d")
 		(property "Sheetname" "Board-to-Board"
-			(at 85.09 62.7884 0)
+			(at 50.8 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +58,7 @@
 			)
 		)
 		(property "Sheetfile" "board-to-board.kicad_sch"
-			(at 85.09 94.5646 0)
+			(at 50.8 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,8 +75,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 63.5)
-		(size 46.99 30.48)
+		(at 50.8 64.77)
+		(size 40.64 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -75,7 +87,7 @@
 		)
 		(uuid "2f800241-08a7-49e7-97bc-35e3807b9c21")
 		(property "Sheetname" "MCU IO Part 1"
-			(at 20.32 62.7884 0)
+			(at 50.8 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +96,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_io_1.kicad_sch"
-			(at 20.32 94.5646 0)
+			(at 50.8 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101,8 +113,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 104.14)
-		(size 46.99 26.67)
+		(at 50.8 77.47)
+		(size 40.64 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -113,7 +125,7 @@
 		)
 		(uuid "4619e5be-1f0d-457d-96e5-6e6d95033c83")
 		(property "Sheetname" "MCU IO Part 2"
-			(at 20.32 103.4284 0)
+			(at 50.8 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,7 +134,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_io_2.kicad_sch"
-			(at 20.32 131.3946 0)
+			(at 50.8 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,8 +151,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 140.97)
-		(size 27.94 27.94)
+		(at 50.8 140.97)
+		(size 40.64 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -151,7 +163,7 @@
 		)
 		(uuid "a20b3bd6-c7b2-46ff-9591-ca80b372e5a4")
 		(property "Sheetname" "Ethernet PHY"
-			(at 139.7 140.2584 0)
+			(at 50.8 140.2584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,7 +172,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet_phy.kicad_sch"
-			(at 139.7 169.4946 0)
+			(at 50.8 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177,8 +189,8 @@
 		)
 	)
 	(sheet
-		(at 85.09 106.68)
-		(size 34.29 22.86)
+		(at 50.8 102.87)
+		(size 40.64 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -189,7 +201,7 @@
 		)
 		(uuid "a28c0fd8-aeac-4bef-8f3f-cec5db09a131")
 		(property "Sheetname" "Sensors"
-			(at 85.09 105.9684 0)
+			(at 50.8 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,7 +210,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 85.09 130.1246 0)
+			(at 50.8 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -215,8 +227,8 @@
 		)
 	)
 	(sheet
-		(at 85.09 140.97)
-		(size 46.99 27.94)
+		(at 50.8 115.57)
+		(size 40.64 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -227,7 +239,7 @@
 		)
 		(uuid "cac75b7c-b45e-47d5-be26-673a8f59f26a")
 		(property "Sheetname" "Communication"
-			(at 85.09 140.2584 0)
+			(at 50.8 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -236,7 +248,7 @@
 			)
 		)
 		(property "Sheetfile" "communication.kicad_sch"
-			(at 85.09 169.4946 0)
+			(at 50.8 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,8 +265,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 140.97)
-		(size 46.99 26.67)
+		(at 50.8 90.17)
+		(size 40.64 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -265,7 +277,7 @@
 		)
 		(uuid "cb14c3cb-ad07-49c0-85e6-22786ebb10ed")
 		(property "Sheetname" "MCU IO USB & Power"
-			(at 20.32 140.2584 0)
+			(at 50.8 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -274,7 +286,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_usb_power.kicad_sch"
-			(at 20.32 168.2246 0)
+			(at 50.8 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,8 +303,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 24.13)
-		(size 31.75 16.51)
+		(at 50.8 52.07)
+		(size 40.64 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -303,7 +315,7 @@
 		)
 		(uuid "cd546697-22c1-446e-bf49-97c1431cc780")
 		(property "Sheetname" "Power supplies"
-			(at 20.32 23.4184 0)
+			(at 50.8 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -312,7 +324,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supplies.kicad_sch"
-			(at 20.32 41.2246 0)
+			(at 50.8 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

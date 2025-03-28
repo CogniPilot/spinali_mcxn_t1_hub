@@ -5,8 +5,8 @@
 	(uuid "d45c10ab-8b78-4c10-8aa7-ed4fbd4f099b")
 	(paper "A4")
 	(title_block
-		(title "MR-MCXN-T1 Sensor hub")
-		(date "2025-03-20")
+		(title "MR-MCXN-T1 Sensor Node")
+		(date "2025-03-28")
 		(rev "X0")
 		(company "NXP SEMICONDUCTORS B.V.")
 		(comment 1 "CLASSIFICATION: INTERNAL USE ONLY")
@@ -14,7 +14,7 @@
 		(comment 4 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
 	)
 	(lib_symbols
-		(symbol "Connectors:DF40TC-50DP-0.4V(51)"
+		(symbol "Connectors:DF40TC(3.0)-50DP-0.4V(51)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "DF40TC-50DP-0.4V(51)"
+			(property "Value" "DF40TC(3.0)-50DP-0.4V(51)"
 				(at 2.032 5.334 0)
 				(effects
 					(font
@@ -36,7 +36,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Connectors:DF40TC-50DP-0.4V(51)"
+			(property "Footprint" "Connectors:DF40TC(3.0)-50DP-0.4V(51)"
 				(at 13.208 -70.358 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DF40TC-50DP-0.4V(51)_1_1"
+			(symbol "DF40TC(3.0)-50DP-0.4V(51)_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -68.58)
@@ -3355,6 +3355,27 @@
 			)
 		)
 	)
+	(global_label "P0_18{slash}FC0_P2{slash}IMU_SYNC"
+		(shape bidirectional)
+		(at 217.17 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90898eda-f303-47c6-8ccf-1d18d88c361e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.0617 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "P3_12{slash}FC7_P4"
 		(shape bidirectional)
 		(at 186.69 128.27 180)
@@ -3536,27 +3557,6 @@
 		(uuid "c08dd202-94bd-47a3-af71-c6f8e84f144b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 234.2688 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "P0_18{slash}FC0_P2"
-		(shape bidirectional)
-		(at 217.17 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c53d730b-b3c2-4397-ba49-c3da51a14249")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.4783 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:DF40TC-50DP-0.4V(51)")
+		(lib_id "Connectors:DF40TC(3.0)-50DP-0.4V(51)")
 		(at 92.71 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4622,7 +4622,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40TC-50DP-0.4V(51)"
+		(property "Value" "DF40TC(3.0)-50DP-0.4V(51)"
 			(at 105.41 62.23 0)
 			(effects
 				(font
@@ -4630,7 +4630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connectors:DF40TC-50DP-0.4V(51)"
+		(property "Footprint" "Connectors:DF40TC(3.0)-50DP-0.4V(51)"
 			(at 105.918 137.668 0)
 			(effects
 				(font
@@ -4659,7 +4659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "Supplier" "Farnell"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -4677,7 +4677,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "DF40TC-50DP-0.4V(51)"
+		(property "MFPN" "DF40TC(3.0)-30DS-0.4V(51)"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -4686,43 +4686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C3648702"
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "Supplier PN" "4399391"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -5908,7 +5872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:DF40TC-50DP-0.4V(51)")
+		(lib_id "Connectors:DF40TC(3.0)-50DP-0.4V(51)")
 		(at 189.23 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5925,7 +5889,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40TC-50DP-0.4V(51)"
+		(property "Value" "DF40TC(3.0)-50DP-0.4V(51)"
 			(at 201.93 62.23 0)
 			(effects
 				(font
@@ -5933,7 +5897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connectors:DF40TC-50DP-0.4V(51)"
+		(property "Footprint" "Connectors:DF40TC(3.0)-50DP-0.4V(51)"
 			(at 202.438 137.668 0)
 			(effects
 				(font
@@ -5962,7 +5926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "Supplier" "Farnell"
 			(at 189.23 67.31 0)
 			(effects
 				(font
@@ -5980,7 +5944,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "DF40TC-50DP-0.4V(51)"
+		(property "MFPN" "DF40TC(3.0)-30DS-0.4V(51)"
 			(at 189.23 67.31 0)
 			(effects
 				(font
@@ -5989,7 +5953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C3648702"
+		(property "Supplier PN" "4399391"
 			(at 189.23 67.31 0)
 			(effects
 				(font
