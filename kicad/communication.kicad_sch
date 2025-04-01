@@ -5159,7 +5159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0529a7f3-c8a8-42ec-b916-df79f794cedb")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0153"
 			(at 72.39 132.08 0)
 			(effects
 				(font
@@ -5209,7 +5209,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0152")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -5224,7 +5224,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "076c1a45-6704-456f-9c3d-23fdf9148241")
-		(property "Reference" "R26"
+		(property "Reference" "R30"
 			(at 207.01 111.506 0)
 			(effects
 				(font
@@ -5350,7 +5350,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "R26")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -5365,7 +5365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08e1c7c0-0a11-44dc-b222-a5fcda0de565")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0152"
 			(at 262.89 128.27 0)
 			(effects
 				(font
@@ -5415,7 +5415,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0151")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -5431,7 +5431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bf638be-94b6-408f-ac3d-8a2f8268c2ba")
-		(property "Reference" "C73"
+		(property "Reference" "C77"
 			(at 74.93 152.3999 0)
 			(effects
 				(font
@@ -5449,7 +5449,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 70.1548 149.86 0)
 			(effects
 				(font
@@ -5494,7 +5494,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Samsung Electro-Mechanics"
+		(property "MF" "Murata Electronics"
 			(at 71.12 153.67 0)
 			(effects
 				(font
@@ -5503,7 +5503,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "CL10B105KA8NNNC"
+		(property "MFPN" "GRM155Z71A105KE01D"
 			(at 71.12 153.67 0)
 			(effects
 				(font
@@ -5539,7 +5539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C29936"
+		(property "Supplier PN" "C528974"
 			(at 71.12 153.67 0)
 			(effects
 				(font
@@ -5557,7 +5557,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C73")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -5739,7 +5739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fd4f11e-ce51-4033-9234-c3f6eaeefb80")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0154"
 			(at 196.85 125.73 0)
 			(effects
 				(font
@@ -5790,7 +5790,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0153")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -5805,7 +5805,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "1516bca6-7205-4c46-ba8d-b622c3660566")
-		(property "Reference" "R22"
+		(property "Reference" "R28"
 			(at 210.82 78.232 0)
 			(effects
 				(font
@@ -5931,7 +5931,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "R22")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -6062,7 +6062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e79ece0-51b1-4d01-9c41-39c5af61feb9")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0134"
 			(at 262.89 68.58 0)
 			(effects
 				(font
@@ -6112,7 +6112,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0133")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -6128,7 +6128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fb2c99e-5364-4b83-ab97-9813f58d63fd")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0151"
 			(at 63.5 127 0)
 			(effects
 				(font
@@ -6178,7 +6178,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0150")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -6194,7 +6194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2361d35e-49c4-46b8-8cf3-74b5d8878587")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0126"
 			(at 43.18 33.02 0)
 			(effects
 				(font
@@ -6245,7 +6245,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0125")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -6260,7 +6260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2651056e-a53a-44cc-8674-0bb6f468d944")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0160"
 			(at 71.12 151.13 0)
 			(effects
 				(font
@@ -6310,7 +6310,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0159")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -6326,7 +6326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "267e69c8-5a1a-4705-8388-bbbb9f492543")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0128"
 			(at 139.7 40.64 0)
 			(effects
 				(font
@@ -6376,7 +6376,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0127")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -6392,7 +6392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26fe703b-60d8-4ce1-a47e-d298c22f0c15")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0158"
 			(at 172.72 140.97 0)
 			(effects
 				(font
@@ -6442,7 +6442,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0157")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -6691,7 +6691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e980c75-4975-476f-ba38-9d3e7e1cf1a6")
-		(property "Reference" "C68"
+		(property "Reference" "C72"
 			(at 143.51 99.0599 0)
 			(effects
 				(font
@@ -6817,7 +6817,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C68")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -6832,7 +6832,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "31b1bc73-ee01-4ba6-9568-7ee546ff6502")
-		(property "Reference" "R27"
+		(property "Reference" "R31"
 			(at 210.82 137.922 0)
 			(effects
 				(font
@@ -6958,7 +6958,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "R27")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6974,7 +6974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3807ef20-5d80-404f-aca6-02d3c159eba1")
-		(property "Reference" "L6"
+		(property "Reference" "L7"
 			(at 187.579 118.11 0)
 			(effects
 				(font
@@ -7104,7 +7104,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "L6")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -7120,7 +7120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40342b8a-22c3-43dd-bb14-49e268743396")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0132"
 			(at 146.05 63.5 0)
 			(effects
 				(font
@@ -7170,7 +7170,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0131")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -7185,7 +7185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40d74013-cb46-43a8-bf75-f45823b98818")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0157"
 			(at 271.78 133.35 0)
 			(effects
 				(font
@@ -7235,7 +7235,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0156")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -7251,7 +7251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "440a20a9-db98-46ab-8c77-e27aa2c5cda3")
-		(property "Reference" "C70"
+		(property "Reference" "C71"
 			(at 242.57 69.8499 0)
 			(effects
 				(font
@@ -7269,7 +7269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 239.7252 74.93 0)
 			(effects
 				(font
@@ -7296,6 +7296,42 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 238.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "CC0402JRNPO9BN560"
+			(at 238.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 238.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "C107007 "
+			(at 238.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e7eba2d-49fc-4743-be6c-c37b71bc7cd7")
 		)
@@ -7305,7 +7341,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C70")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -7321,7 +7357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48c8c22b-9512-42b5-9801-f00a33cf333a")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0133"
 			(at 172.72 63.5 0)
 			(effects
 				(font
@@ -7371,7 +7407,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0132")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -7387,7 +7423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b2c7d8b-1dd0-4890-8b6b-0bdbb3e70b2a")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0131"
 			(at 157.48 50.8 0)
 			(effects
 				(font
@@ -7437,7 +7473,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0130")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -7452,7 +7488,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "4be7d3d0-e221-4361-af4b-76753af18353")
-		(property "Reference" "R21"
+		(property "Reference" "R27"
 			(at 207.01 51.816 0)
 			(effects
 				(font
@@ -7578,7 +7614,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "R21")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7593,7 +7629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "541b7b37-4298-4b26-b0bb-45b9f98d9eab")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0144"
 			(at 271.78 96.52 0)
 			(effects
 				(font
@@ -7643,7 +7679,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0143")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -7825,7 +7861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "623fa002-1e6d-484a-8837-028ee4eaab51")
-		(property "Reference" "C72"
+		(property "Reference" "C69"
 			(at 242.57 59.6899 0)
 			(effects
 				(font
@@ -7843,7 +7879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 239.7252 64.77 0)
 			(effects
 				(font
@@ -7870,6 +7906,42 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "CC0402JRNPO9BN560"
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "C107007 "
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b6dbba69-10eb-496d-a44c-84277d7bbb5a")
 		)
@@ -7879,7 +7951,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C72")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -7895,7 +7967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "645eb5d4-1f2f-48fb-9b4f-50f38cfce729")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0159"
 			(at 262.89 151.13 0)
 			(effects
 				(font
@@ -7945,7 +8017,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0158")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -7961,7 +8033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6969abfc-26c4-4a24-9457-8bc6159593ff")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0136"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -8012,7 +8084,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0135")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -8028,7 +8100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "708df2bb-3a33-4716-832a-6ddbae6a5eb9")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0163"
 			(at 86.36 163.83 0)
 			(effects
 				(font
@@ -8079,7 +8151,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0162")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -8095,7 +8167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7477a1c2-79ba-4b47-95dc-362d74ce6f2b")
-		(property "Reference" "L5"
+		(property "Reference" "L6"
 			(at 187.579 58.42 0)
 			(effects
 				(font
@@ -8225,7 +8297,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "L5")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -8241,7 +8313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "769d3c56-2035-4ee0-b9f7-b6e5e280eaad")
-		(property "Reference" "R24"
+		(property "Reference" "R29"
 			(at 66.04 90.1699 0)
 			(effects
 				(font
@@ -8367,7 +8439,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "R24")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8383,7 +8455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7869212d-c6fe-454e-92f5-db4c8356bbaa")
-		(property "Reference" "C69"
+		(property "Reference" "C73"
 			(at 161.29 99.0599 0)
 			(effects
 				(font
@@ -8401,7 +8473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.4452 104.14 0)
 			(effects
 				(font
@@ -8428,7 +8500,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Samsung Electro-Mechanics"
+		(property "MF" "Murata Electronics"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -8437,7 +8509,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "CL10B105KA8NNNC"
+		(property "MFPN" "GRM155Z71A105KE01D"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -8455,7 +8527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C29936"
+		(property "Supplier PN" "C528974"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -8509,7 +8581,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C69")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -8525,7 +8597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79d77155-63b7-4d30-8266-c0e8b8543cb7")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0146"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -8575,7 +8647,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0145")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -8591,7 +8663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81384ac4-461b-406a-838d-8ff7b0d78e88")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0127"
 			(at 81.28 33.02 0)
 			(effects
 				(font
@@ -8642,7 +8714,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0126")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -8658,7 +8730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82b2c137-25c7-4660-be65-6de6f53f4574")
-		(property "Reference" "C74"
+		(property "Reference" "C78"
 			(at 90.17 152.3999 0)
 			(effects
 				(font
@@ -8784,7 +8856,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C74")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -8800,7 +8872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "842b4aca-72c5-41b3-a28b-e0e4c95e0bb3")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0162"
 			(at 71.12 163.83 0)
 			(effects
 				(font
@@ -8850,7 +8922,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0161")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e7a88e9-4321-4134-b730-d0aca4105b69")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0149"
 			(at 146.05 123.19 0)
 			(effects
 				(font
@@ -8916,7 +8988,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0148")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -9078,7 +9150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93f07b67-b4f9-4f2e-9f11-5a44349b8427")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0147"
 			(at 139.7 110.49 0)
 			(effects
 				(font
@@ -9128,7 +9200,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0146")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -9144,7 +9216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94693ee3-ff20-48eb-a006-cb8b09d815da")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0148"
 			(at 157.48 110.49 0)
 			(effects
 				(font
@@ -9194,7 +9266,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0147")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -9210,7 +9282,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "94d7771a-afea-4148-8432-e8d1a5baf00b")
-		(property "Reference" "C66"
+		(property "Reference" "C70"
 			(at 207.01 58.42 90)
 			(effects
 				(font
@@ -9334,7 +9406,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C66")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -9350,7 +9422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "959982a4-e98b-4d52-b769-87ba3f8d169a")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0150"
 			(at 172.72 123.19 0)
 			(effects
 				(font
@@ -9400,7 +9472,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0149")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -9749,7 +9821,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9b3e37e0-9144-4dc6-a8ac-dcccf73fb159")
-		(property "Reference" "C71"
+		(property "Reference" "C75"
 			(at 207.01 118.11 90)
 			(effects
 				(font
@@ -9873,7 +9945,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C71")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -9889,7 +9961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d5faf81-79d8-43a8-94b2-c4677b643782")
-		(property "Reference" "C65"
+		(property "Reference" "C74"
 			(at 242.57 119.3799 0)
 			(effects
 				(font
@@ -9907,7 +9979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 239.7252 124.46 0)
 			(effects
 				(font
@@ -9934,6 +10006,42 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "CC0402JRNPO9BN560"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "C107007 "
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82203d78-c55b-4fc6-8368-fa4431a548bb")
 		)
@@ -9943,7 +10051,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C65")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -9959,7 +10067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d78150b-4bcf-4483-9ed4-9727679999df")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0141"
 			(at 172.72 81.28 0)
 			(effects
 				(font
@@ -10009,7 +10117,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0140")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -10025,7 +10133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a67e3e7b-552c-4ba4-b14a-725619d59285")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0135"
 			(at 43.18 66.04 0)
 			(effects
 				(font
@@ -10076,7 +10184,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0134")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -10092,7 +10200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6df16d9-2adf-4a7f-95ed-9d1a044123d5")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0155"
 			(at 217.17 125.73 0)
 			(effects
 				(font
@@ -10143,7 +10251,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0154")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -10159,7 +10267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac4712df-1761-424a-9660-8de0f317b035")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0142"
 			(at 262.89 91.44 0)
 			(effects
 				(font
@@ -10209,7 +10317,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0141")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -10225,7 +10333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49f7fc8-fbdd-4439-b5ea-547c95a43939")
-		(property "Reference" "C67"
+		(property "Reference" "C76"
 			(at 242.57 129.5399 0)
 			(effects
 				(font
@@ -10243,7 +10351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 239.7252 134.62 0)
 			(effects
 				(font
@@ -10270,6 +10378,42 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 238.76 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "CC0402JRNPO9BN560"
+			(at 238.76 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "JLCPCB"
+			(at 238.76 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "C107007 "
+			(at 238.76 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9a3888c-91e2-43bf-b8f9-72f385d6d099")
 		)
@@ -10279,7 +10423,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C67")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -10428,7 +10572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd9c8947-1b3d-4250-9948-00cfa53b2624")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0129"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -10478,7 +10622,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0128")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -10494,7 +10638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2c161f-09ba-499b-923d-c533e7390c0e")
-		(property "Reference" "C63"
+		(property "Reference" "C67"
 			(at 143.51 39.3699 0)
 			(effects
 				(font
@@ -10620,7 +10764,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C63")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -10636,7 +10780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfe5c5b1-7ee9-441d-9254-4b7bfb980ded")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0143"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -10686,7 +10830,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0142")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -10702,7 +10846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c038aed4-511e-4bba-987c-647982e51825")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0145"
 			(at 139.7 100.33 0)
 			(effects
 				(font
@@ -10752,7 +10896,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0144")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -10768,7 +10912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c10ea0a1-bafe-4453-8992-0696ba95eec2")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0156"
 			(at 231.14 125.73 0)
 			(effects
 				(font
@@ -10819,7 +10963,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0155")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -10835,7 +10979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdb173fb-28c1-46c9-a7b9-b8392cdbef01")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0138"
 			(at 217.17 66.04 0)
 			(effects
 				(font
@@ -10886,7 +11030,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0137")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -10901,7 +11045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0a33d41-84b3-4e48-acfd-3164f0d0f394")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0140"
 			(at 271.78 73.66 0)
 			(effects
 				(font
@@ -10951,7 +11095,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0139")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -10966,7 +11110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2e0f200-5570-486b-a21d-4971bda1f24f")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0164"
 			(at 60.96 162.56 0)
 			(effects
 				(font
@@ -11016,7 +11160,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0163")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -11178,7 +11322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e555e825-763b-4430-a993-32879d7a8099")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0130"
 			(at 139.7 50.8 0)
 			(effects
 				(font
@@ -11228,7 +11372,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0129")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -11244,7 +11388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e57b9850-2b87-487a-9b3d-5f448067c26a")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0165"
 			(at 60.96 187.96 0)
 			(effects
 				(font
@@ -11294,7 +11438,7 @@
 		(instances
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0164")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -11425,7 +11569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e65efb54-2a16-4664-b0d4-1278deaa8451")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0139"
 			(at 231.14 66.04 0)
 			(effects
 				(font
@@ -11476,7 +11620,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0138")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -11492,7 +11636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec0bae10-3625-4680-bc71-618b6c5c4d1b")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0137"
 			(at 196.85 66.04 0)
 			(effects
 				(font
@@ -11543,7 +11687,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0136")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -11791,7 +11935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8c0ccd5-b840-48ad-bea2-767311b44434")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0161"
 			(at 271.78 156.21 0)
 			(effects
 				(font
@@ -11841,7 +11985,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "#PWR0160")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -11857,7 +12001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff191a79-842d-40a0-8d97-11418d9d9808")
-		(property "Reference" "C64"
+		(property "Reference" "C68"
 			(at 161.29 39.3699 0)
 			(effects
 				(font
@@ -11875,7 +12019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.4452 44.45 0)
 			(effects
 				(font
@@ -11902,7 +12046,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Samsung Electro-Mechanics"
+		(property "MF" "Murata Electronics"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -11911,7 +12055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "CL10B105KA8NNNC"
+		(property "MFPN" "GRM155Z71A105KE01D"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -11929,7 +12073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C29936"
+		(property "Supplier PN" "C528974"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -11983,7 +12127,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cac75b7c-b45e-47d5-be26-673a8f59f26a"
-					(reference "C64")
+					(reference "C68")
 					(unit 1)
 				)
 			)

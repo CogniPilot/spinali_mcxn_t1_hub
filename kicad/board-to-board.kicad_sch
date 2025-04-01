@@ -1051,6 +1051,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers hide)
@@ -3734,6 +3836,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 257.81 35.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01d38905-dfe6-4a57-8035-00765350f663")
+		(property "Reference" "H4"
+			(at 260.35 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 257.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 257.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "930995a0-e223-4612-aa6e-4c6822896eaa")
+		)
+		(instances
+			(project ""
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 77.47 90)
 		(unit 1)
@@ -3743,7 +3912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04388fed-a697-41db-9195-1aadb31aaec6")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0175"
 			(at 220.98 77.47 0)
 			(effects
 				(font
@@ -3794,7 +3963,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0174")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -3810,7 +3979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "050900c0-5c2c-4c0d-926e-f205fe0cefb0")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0196"
 			(at 220.98 113.03 0)
 			(effects
 				(font
@@ -3861,7 +4030,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0195")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -3877,7 +4046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "063efd83-c0f2-4598-b72f-d67143528333")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0178"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -3928,7 +4097,73 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0177")
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fe0800f-1aed-430e-a5c6-747352518a72")
+		(property "Reference" "#PWR0237"
+			(at 257.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac669828-ab94-4948-9aea-49eafdd772fd")
+		)
+		(instances
+			(project "spinali_mcxn_t1_sensor_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -3944,7 +4179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12f61c99-3d71-47b9-a326-2e2354377c09")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0193"
 			(at 86.36 107.95 0)
 			(effects
 				(font
@@ -3995,7 +4230,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0192")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -4011,7 +4246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13db5142-0fea-46f6-9a3f-75a7b223a652")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0203"
 			(at 83.82 133.35 0)
 			(effects
 				(font
@@ -4062,7 +4297,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0202")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -4078,7 +4313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1714218d-4d89-45c7-a765-a3e8772787ee")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0171"
 			(at 116.84 72.39 0)
 			(effects
 				(font
@@ -4129,7 +4364,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0170")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -4145,7 +4380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ca7cdea-f65b-4cca-86f8-82a685060b99")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0190"
 			(at 220.98 100.33 0)
 			(effects
 				(font
@@ -4196,7 +4431,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0189")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -4212,7 +4447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24d5f4b4-5b6c-4bae-916e-029d46cec3d5")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0174"
 			(at 182.88 77.47 0)
 			(effects
 				(font
@@ -4263,7 +4498,74 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0173")
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 257.81 20.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a5c31ac-5d4b-4920-a4a7-30533a86be55")
+		(property "Reference" "H2"
+			(at 260.35 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 257.81 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 257.81 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "279c60af-49fe-4409-9304-41632d63ce84")
+		)
+		(instances
+			(project ""
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4279,7 +4581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d6015f6-dd69-43be-b9ee-1bd1ca9cdf14")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0169"
 			(at 223.52 67.31 0)
 			(effects
 				(font
@@ -4330,7 +4632,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0168")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -4346,7 +4648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fdb1d2f-15f1-4e7a-8028-4ee51df597b8")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0166"
 			(at 83.82 67.31 0)
 			(effects
 				(font
@@ -4397,7 +4699,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0165")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -4413,7 +4715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37b17350-2181-44cf-b3c4-a996deb2045d")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0198"
 			(at 182.88 115.57 0)
 			(effects
 				(font
@@ -4464,7 +4766,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0197")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -4480,7 +4782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e80643a-6929-4c66-8499-f1b059f63c70")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0189"
 			(at 182.88 100.33 0)
 			(effects
 				(font
@@ -4531,7 +4833,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0188")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -4547,7 +4849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43263378-04dc-4815-b652-ed3dbef2acd0")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0167"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -4598,7 +4900,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0166")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -4876,7 +5178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51718224-ad35-4240-9c98-b253b7c93d6d")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0200"
 			(at 220.98 120.65 0)
 			(effects
 				(font
@@ -4927,7 +5229,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0199")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -4943,7 +5245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52224890-cf87-4c21-809e-7fee02b7dec4")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0185"
 			(at 182.88 92.71 0)
 			(effects
 				(font
@@ -4994,7 +5296,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0184")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -5010,7 +5312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ebbdd02-c1f7-4b06-abb2-40758a2b286c")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR0191"
 			(at 124.46 105.41 0)
 			(effects
 				(font
@@ -5061,7 +5363,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0190")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -5077,7 +5379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6300160e-e644-4d62-8491-0197f73f4250")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0182"
 			(at 96.52 90.17 0)
 			(effects
 				(font
@@ -5128,7 +5430,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0181")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -5144,7 +5446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64d87a8d-436b-42dc-b71c-5e8d746ec2b5")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0179"
 			(at 83.82 85.09 0)
 			(effects
 				(font
@@ -5195,7 +5497,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0178")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -5211,7 +5513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bb04f70-ee86-4a97-89ee-39f6494c7bd8")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0202"
 			(at 182.88 123.19 0)
 			(effects
 				(font
@@ -5262,7 +5564,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0201")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -5278,7 +5580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d1f24c3-7594-4b22-9f7d-287179a0c3e8")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0197"
 			(at 86.36 115.57 0)
 			(effects
 				(font
@@ -5329,7 +5631,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0196")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -5345,7 +5647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "731b7cd4-ea24-4a6e-97e6-44e6c287d4c7")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0204"
 			(at 127 133.35 0)
 			(effects
 				(font
@@ -5396,7 +5698,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0203")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -5412,7 +5714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75b5e7ae-bb42-4339-bb8c-04890533f3dc")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0205"
 			(at 180.34 133.35 0)
 			(effects
 				(font
@@ -5463,7 +5765,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0204")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -5479,7 +5781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a4839ba-2c1e-4675-82ad-1abb3f9b8bdf")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0173"
 			(at 124.46 77.47 0)
 			(effects
 				(font
@@ -5530,7 +5832,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0172")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -5546,7 +5848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c0c2efb-e245-48d7-a570-431cf7c96429")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0181"
 			(at 220.98 85.09 0)
 			(effects
 				(font
@@ -5597,7 +5899,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0180")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -5613,7 +5915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7da86a8e-9cf0-4e4f-a229-62efca1a018e")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0168"
 			(at 180.34 67.31 0)
 			(effects
 				(font
@@ -5664,7 +5966,7 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0167")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -5680,7 +5982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8434d4c4-b73d-4fee-8274-4e54dbbeaf70")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR0188"
 			(at 86.36 100.33 0)
 			(effects
 				(font
@@ -5731,7 +6033,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0187")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -5747,7 +6049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "860bb8f3-b41b-4228-8f42-4287cd41627c")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR0192"
 			(at 220.98 105.41 0)
 			(effects
 				(font
@@ -5798,7 +6100,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0191")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -5814,7 +6116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a0571f3-c58e-4a29-8c6a-88330682ee9c")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR0195"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -5865,7 +6167,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0194")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -6170,6 +6472,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 238.76 20.32 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "968e57bf-7c0d-4aad-b513-61ebce454992")
+		(property "Reference" "H1"
+			(at 241.3 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 241.3 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 238.76 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 238.76 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9ffd3f2-98c5-4b31-98e8-16bc99ac71f7")
+		)
+		(instances
+			(project ""
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 97.79 90)
 		(unit 1)
@@ -6179,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9738a915-a8aa-43db-a3d9-311878d75e54")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR0187"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -6230,7 +6599,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0186")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -6246,7 +6615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f9aaae3-09d8-473f-9cef-e84d65726c87")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0206"
 			(at 223.52 133.35 0)
 			(effects
 				(font
@@ -6297,7 +6666,73 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0205")
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab81de49-f2b5-442b-a79f-3046f253c799")
+		(property "Reference" "#PWR0235"
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18924aa9-577f-4b5d-a386-041daea7adde")
+		)
+		(instances
+			(project "spinali_mcxn_t1_sensor_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -6313,7 +6748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acafdadf-403a-4e26-b246-54dca46dde10")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0180"
 			(at 182.88 85.09 0)
 			(effects
 				(font
@@ -6364,7 +6799,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0179")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0e73ffb-7318-489b-9fdc-aa9355f75e03")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0199"
 			(at 124.46 120.65 0)
 			(effects
 				(font
@@ -6431,7 +6866,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0198")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -6447,7 +6882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b73d6b21-e2f2-45e4-b61e-e545a52c87d7")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0172"
 			(at 86.36 77.47 0)
 			(effects
 				(font
@@ -6498,7 +6933,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0171")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -6514,7 +6949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8800ab2-98ce-47d9-851d-62a5cab4024e")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0170"
 			(at 93.98 72.39 0)
 			(effects
 				(font
@@ -6565,7 +7000,73 @@
 		(instances
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0169")
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbc08a2e-e9ef-4926-adcb-af50578947d0")
+		(property "Reference" "#PWR0236"
+			(at 257.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc4ea09-6f7b-4ae3-803e-4940151879e9")
+		)
+		(instances
+			(project "spinali_mcxn_t1_sensor_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -6581,7 +7082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf11bbdb-dcad-43af-83ed-03a0bbcad151")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0186"
 			(at 220.98 92.71 0)
 			(effects
 				(font
@@ -6632,7 +7133,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0185")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -6648,7 +7149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c159912c-56c3-41dd-861a-06eca58cb700")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0184"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -6699,7 +7200,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0183")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -6715,7 +7216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4152146-14bc-45a0-89b8-773dee55feaa")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0183"
 			(at 124.46 90.17 0)
 			(effects
 				(font
@@ -6766,7 +7267,140 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0182")
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c516d7c1-1524-42c1-bf6d-a3a1556b6a3f")
+		(property "Reference" "#PWR0238"
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9a9b1f1-c801-406f-a128-d3493ae82182")
+		)
+		(instances
+			(project "spinali_mcxn_t1_sensor_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 238.76 35.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cba2e926-ccdd-49e6-ac78-8c26af7cda13")
+		(property "Reference" "H3"
+			(at 241.3 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 241.3 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 238.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 238.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63daed83-9f00-4729-a30e-5b5eeed89a72")
+		)
+		(instances
+			(project ""
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6782,7 +7416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d03f96c0-c9c5-4c69-9c78-28da9f30eb59")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0194"
 			(at 182.88 107.95 0)
 			(effects
 				(font
@@ -6833,7 +7467,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0193")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -6849,7 +7483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1649f04-910c-458d-aad5-e4d01065e080")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0177"
 			(at 114.3 80.01 0)
 			(effects
 				(font
@@ -6900,7 +7534,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0176")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -6916,7 +7550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3f9f214-d051-4f81-8bc7-5a6d6cb94858")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0176"
 			(at 96.52 80.01 0)
 			(effects
 				(font
@@ -6967,7 +7601,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0175")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -6983,7 +7617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edb7ab33-e558-430a-ad12-f39b706983b1")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR0201"
 			(at 86.36 123.19 0)
 			(effects
 				(font
@@ -7034,7 +7668,7 @@
 		(instances
 			(project "spinali_mcxn_t1_sensor_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/1eea4502-3ae6-49a1-b28d-d3586979946d"
-					(reference "#PWR0200")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
