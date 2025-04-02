@@ -25,7 +25,7 @@
       "text": false,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       0,
@@ -63,7 +63,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffffff_ffffffed",
     "zone_display_mode": 1
   },
   "git": {
