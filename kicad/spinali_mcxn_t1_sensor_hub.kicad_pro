@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.2794,
-          "width": 0.2794
+          "height": 0.25,
+          "width": 0.25
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -536,6 +536,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.2,
+        "name": "90Ohm differential",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
@@ -597,6 +614,22 @@
       {
         "netclass": "PWR",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "90Ohm differential",
+        "pattern": "/MCU IO USB & Power/USB_D+"
+      },
+      {
+        "netclass": "90Ohm differential",
+        "pattern": "/MCU IO USB & Power/USB_D-"
+      },
+      {
+        "netclass": "90Ohm differential",
+        "pattern": "Net-(U7G-USB1_DM)"
+      },
+      {
+        "netclass": "90Ohm differential",
+        "pattern": "Net-(U7G-USB1_DP)"
       }
     ]
   },

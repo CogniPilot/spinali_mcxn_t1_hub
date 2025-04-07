@@ -778,7 +778,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf?srsltid=AfmBOooPw_Tq26gEsnh7eZszXCCPwOXnL2LBzgImG8KrN44Y6VouFdER"
 				(at 0.254 -61.468 0)
 				(effects
 					(font
@@ -787,52 +787,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "6 AXIS MEMES SENSOR"
 				(at 0.254 -61.468 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "0.2"
-				(at 0 -71.628 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0.254 -64.77 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.86mm"
-				(at 0 -69.596 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "TDK InvenSense"
-				(at 0 -62.484 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1046,9 +1006,9 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 10.16 1.27 180)
-					(length 5.08) hide
+					(length 5.08)
 					(name "RESV"
 						(effects
 							(font
@@ -1464,6 +1424,12 @@
 		(uuid "20b9677e-3e7d-47e7-9a0f-c2e7d60df8b1")
 	)
 	(junction
+		(at 110.49 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b284ab8-d978-4af9-af92-a6bb458cc10b")
+	)
+	(junction
 		(at 73.66 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1671,6 +1637,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 59.69) (xy 110.49 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765e4f98-88b8-4ba3-9d08-11409d283220")
+	)
+	(wire
+		(pts
 			(xy 73.66 130.81) (xy 73.66 132.08)
 		)
 		(stroke
@@ -1841,6 +1817,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 59.69) (xy 110.49 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d1454e-397b-486e-a742-15a06047da78")
+	)
+	(wire
+		(pts
 			(xy 74.93 161.29) (xy 74.93 160.02)
 		)
 		(stroke
@@ -1958,6 +1944,16 @@
 			(type default)
 		)
 		(uuid "ffe575cc-1d6c-4250-96d6-8d5b802c5e08")
+	)
+	(text "Pin 7 is connected to GND\nto support IIM-42652 and\nICM-42688. Internal pull-up\nmust be disabled to prevent\nhigher quiescent current."
+		(exclude_from_sim no)
+		(at 130.302 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5edc88f8-b32a-430d-85d0-570decdaaf89")
 	)
 	(text "I2C ADDR = 0x47\nif pullup ${9c1b5724-5948-467c-904b-49769ae8c8b0:REFERENCE}\nis populated"
 		(exclude_from_sim no)
