@@ -73452,7 +73452,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "MR-XXX-XXX"
+	(gr_text "X-MR-MCXN-T1"
 		(at 118.2 100.5 90)
 		(layer "B.SilkS")
 		(uuid "80b5e63a-5256-4c59-a828-1445ca91666e")
