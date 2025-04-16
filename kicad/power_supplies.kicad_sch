@@ -7611,7 +7611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2k2 1%"
 			(at 264.16 168.9099 0)
 			(effects
 				(font
@@ -15337,7 +15337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2k2 1%"
 			(at 264.16 118.1099 0)
 			(effects
 				(font

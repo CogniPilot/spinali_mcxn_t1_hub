@@ -4961,7 +4961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Farnell"
+		(property "Supplier" "Mouser"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -4979,7 +4979,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "DF40TC(3.0)-30DS-0.4V(51)"
+		(property "MFPN" "DF40TC(3.0)-50DP-0.4V(51)"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -4988,7 +4988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "4399391"
+		(property "Supplier PN" "798-DF40TC3050DP04V5"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -6228,7 +6228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Farnell"
+		(property "Supplier" "Mouser"
 			(at 189.23 67.31 0)
 			(effects
 				(font
@@ -6246,7 +6246,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "DF40TC(3.0)-30DS-0.4V(51)"
+		(property "MFPN" "DF40TC(3.0)-50DP-0.4V(51)"
 			(at 189.23 67.31 0)
 			(effects
 				(font
@@ -6255,7 +6255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "4399391"
+		(property "Supplier PN" "798-DF40TC3050DP04V5"
 			(at 189.23 67.31 0)
 			(effects
 				(font
