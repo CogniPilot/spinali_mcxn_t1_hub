@@ -4961,15 +4961,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 92.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "HRS(Hirose)"
 			(at 92.71 67.31 0)
 			(effects
@@ -4988,7 +4979,16 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "798-DF40TC3050DP04V5"
+		(property "DigiKey" "26-DF40TC(3.0)-50DP-0.4V(51)CT-ND"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "-"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -6228,15 +6228,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 189.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "HRS(Hirose)"
 			(at 189.23 67.31 0)
 			(effects
@@ -6255,7 +6246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "798-DF40TC3050DP04V5"
+		(property "DigiKey" "26-DF40TC(3.0)-50DP-0.4V(51)CT-ND"
 			(at 189.23 67.31 0)
 			(effects
 				(font
@@ -6264,34 +6255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 189.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 189.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 189.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "-"
 			(at 189.23 67.31 0)
 			(effects
 				(font

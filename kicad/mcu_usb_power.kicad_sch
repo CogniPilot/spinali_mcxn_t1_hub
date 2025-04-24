@@ -8604,16 +8604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 208.28 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 208.28 168.91 0)
 			(effects
 				(font
@@ -8631,7 +8622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 208.28 168.91 0)
 			(effects
 				(font
@@ -8640,34 +8631,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 208.28 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 208.28 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 208.28 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 208.28 168.91 0)
 			(effects
 				(font
@@ -8813,16 +8777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 134.62 119.38 0)
 			(effects
 				(font
@@ -8840,7 +8795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 134.62 119.38 0)
 			(effects
 				(font
@@ -8849,34 +8804,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 134.62 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 134.62 119.38 0)
 			(effects
 				(font
@@ -9021,16 +8949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 170.18 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -9048,7 +8967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -9057,34 +8976,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 170.18 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 170.18 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 170.18 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -9163,7 +9055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "MF" "YAGEO"
 			(at 165.1 204.47 0)
 			(effects
 				(font
@@ -9172,7 +9064,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+		(property "MFPN" "AC0402FR-0710KL"
 			(at 165.1 204.47 0)
 			(effects
 				(font
@@ -9181,7 +9073,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "0402WGF1002TCE"
+		(property "DigiKey" "YAG3436CT-ND"
 			(at 165.1 204.47 0)
 			(effects
 				(font
@@ -9190,43 +9082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C25744"
-			(at 165.1 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 165.1 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 165.1 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 165.1 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "C144807"
 			(at 165.1 204.47 0)
 			(effects
 				(font
@@ -9302,7 +9158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "MF" "YAGEO"
 			(at 88.9 213.36 0)
 			(effects
 				(font
@@ -9311,7 +9167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+		(property "MFPN" "AC0402FR-075K1L"
 			(at 88.9 213.36 0)
 			(effects
 				(font
@@ -9320,7 +9176,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "0402WGF5101TCE"
+		(property "DigiKey" "YAG3503CT-ND"
 			(at 88.9 213.36 0)
 			(effects
 				(font
@@ -9329,43 +9185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C25905"
-			(at 88.9 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 88.9 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 88.9 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 88.9 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "C144745"
 			(at 88.9 213.36 0)
 			(effects
 				(font
@@ -9511,15 +9331,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Murata Electronics"
 			(at 119.38 97.79 0)
 			(effects
@@ -9538,7 +9349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C88945"
+		(property "JLCPCB" "C88945"
 			(at 119.38 97.79 0)
 			(effects
 				(font
@@ -9547,34 +9358,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-10024-1-ND "
 			(at 119.38 97.79 0)
 			(effects
 				(font
@@ -9669,7 +9453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "JLCPCB" "C76884"
 			(at 104.14 191.77 0)
 			(effects
 				(font
@@ -9678,43 +9462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C76884"
-			(at 104.14 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 104.14 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 104.14 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 104.14 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-1006-1-ND "
 			(at 104.14 191.77 0)
 			(effects
 				(font
@@ -9793,16 +9541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 134.62 76.2 0)
 			(effects
 				(font
@@ -9820,7 +9559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 134.62 76.2 0)
 			(effects
 				(font
@@ -9829,34 +9568,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 134.62 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 134.62 76.2 0)
 			(effects
 				(font
@@ -10001,7 +9713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "MF" "YAGEO"
 			(at 165.1 214.63 0)
 			(effects
 				(font
@@ -10010,7 +9722,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+		(property "MFPN" "AC0603FR-07100RL"
 			(at 165.1 214.63 0)
 			(effects
 				(font
@@ -10019,7 +9731,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "0603WAF1000T5E"
+		(property "DigiKey" "YAG3561CT-ND"
 			(at 165.1 214.63 0)
 			(effects
 				(font
@@ -10028,43 +9740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C22775"
-			(at 165.1 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 165.1 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 165.1 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 165.1 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "C125923"
 			(at 165.1 214.63 0)
 			(effects
 				(font
@@ -10209,15 +9885,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 119.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Murata Electronics"
 			(at 119.38 54.61 0)
 			(effects
@@ -10236,7 +9903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C88945"
+		(property "JLCPCB" "C88945"
 			(at 119.38 54.61 0)
 			(effects
 				(font
@@ -10245,34 +9912,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 119.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 119.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 119.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-10024-1-ND "
 			(at 119.38 54.61 0)
 			(effects
 				(font
@@ -10432,7 +10072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
+		(property "DigiKey" "568-MCXN947VDFT-ND"
 			(at 276.86 41.91 0)
 			(effects
 				(font
@@ -10441,43 +10081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "568-MCXN947VDFT-ND"
-			(at 276.86 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 276.86 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 276.86 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 276.86 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "-"
 			(at 276.86 41.91 0)
 			(effects
 				(font
@@ -11367,7 +10971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "MF" "Murata Electronics"
 			(at 226.06 168.91 0)
 			(effects
 				(font
@@ -11376,7 +10980,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics"
+		(property "MFPN" "GRM188Z71A475KE15D"
 			(at 226.06 168.91 0)
 			(effects
 				(font
@@ -11385,7 +10989,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "CL10B475KQ8NQNC"
+		(property "DigiKey" "490-GRM188Z71A475KE15DCT-ND"
 			(at 226.06 168.91 0)
 			(effects
 				(font
@@ -11394,43 +10998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C107368"
-			(at 226.06 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 226.06 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 226.06 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 226.06 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "C913474"
 			(at 226.06 168.91 0)
 			(effects
 				(font
@@ -11575,15 +11143,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 96.52 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Murata Electronics"
 			(at 96.52 196.85 0)
 			(effects
@@ -11602,7 +11161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C77083"
+		(property "JLCPCB" "C77083"
 			(at 96.52 196.85 0)
 			(effects
 				(font
@@ -11747,15 +11306,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Murata Electronics"
 			(at 119.38 76.2 0)
 			(effects
@@ -11774,7 +11324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C88945"
+		(property "JLCPCB" "C88945"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -11783,34 +11333,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-10024-1-ND "
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -11955,16 +11478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 152.4 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 152.4 119.38 0)
 			(effects
 				(font
@@ -11982,7 +11496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 152.4 119.38 0)
 			(effects
 				(font
@@ -11991,34 +11505,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 152.4 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 152.4 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 152.4 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 152.4 119.38 0)
 			(effects
 				(font
@@ -12230,16 +11717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 245.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -12257,7 +11735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -12266,34 +11744,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 245.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 245.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 245.11 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -12387,7 +11838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
+		(property "DigiKey" "568-MCXN947VDFT-ND"
 			(at 173.99 217.17 0)
 			(effects
 				(font
@@ -12396,43 +11847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "568-MCXN947VDFT-ND"
-			(at 173.99 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 173.99 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 173.99 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 173.99 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "-"
 			(at 173.99 217.17 0)
 			(effects
 				(font
@@ -13057,15 +12472,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 119.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Murata Electronics"
 			(at 119.38 119.38 0)
 			(effects
@@ -13084,7 +12490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C88945"
+		(property "JLCPCB" "C88945"
 			(at 119.38 119.38 0)
 			(effects
 				(font
@@ -13093,34 +12499,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 119.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 119.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 119.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-10024-1-ND "
 			(at 119.38 119.38 0)
 			(effects
 				(font
@@ -13331,16 +12710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 243.84 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 243.84 168.91 0)
 			(effects
 				(font
@@ -13358,7 +12728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 243.84 168.91 0)
 			(effects
 				(font
@@ -13367,34 +12737,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 243.84 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 243.84 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 243.84 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 243.84 168.91 0)
 			(effects
 				(font
@@ -13473,16 +12816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 134.62 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 134.62 54.61 0)
 			(effects
 				(font
@@ -13500,7 +12834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 134.62 54.61 0)
 			(effects
 				(font
@@ -13509,34 +12843,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 134.62 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 134.62 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 134.62 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 134.62 54.61 0)
 			(effects
 				(font
@@ -13615,16 +12922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 152.4 76.2 0)
 			(effects
 				(font
@@ -13642,7 +12940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 152.4 76.2 0)
 			(effects
 				(font
@@ -13651,34 +12949,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 152.4 76.2 0)
 			(effects
 				(font
@@ -13757,16 +13028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 152.4 97.79 0)
 			(effects
 				(font
@@ -13784,7 +13046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 152.4 97.79 0)
 			(effects
 				(font
@@ -13793,34 +13055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 152.4 97.79 0)
 			(effects
 				(font
@@ -13899,16 +13134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 170.18 97.79 0)
 			(effects
 				(font
@@ -13926,7 +13152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 170.18 97.79 0)
 			(effects
 				(font
@@ -13935,34 +13161,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 170.18 97.79 0)
 			(effects
 				(font
@@ -14702,7 +13901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "MF" "Murata Electronics"
 			(at 148.59 214.63 0)
 			(effects
 				(font
@@ -14711,7 +13910,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samsung Electro-Mechanics"
+		(property "MFPN" "GRM155R71C104KA88D"
 			(at 148.59 214.63 0)
 			(effects
 				(font
@@ -14720,7 +13919,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "CL05B104KO5NNNC"
+		(property "DigiKey" "490-3261-1-ND"
 			(at 148.59 214.63 0)
 			(effects
 				(font
@@ -14729,43 +13928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C1525"
-			(at 148.59 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 148.59 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 148.59 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 148.59 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "C71629"
 			(at 148.59 214.63 0)
 			(effects
 				(font
@@ -15059,7 +14222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
+		(property "DigiKey" "1727-2508-1-ND"
 			(at 121.92 234.95 0)
 			(effects
 				(font
@@ -15068,7 +14231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1727-2508-1-ND"
+		(property "JLCPCB" "-"
 			(at 121.92 234.95 0)
 			(effects
 				(font
@@ -15156,16 +14319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 162.56 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 162.56 250.19 0)
 			(effects
 				(font
@@ -15183,7 +14337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 162.56 250.19 0)
 			(effects
 				(font
@@ -15192,34 +14346,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 162.56 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 162.56 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 162.56 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 162.56 250.19 0)
 			(effects
 				(font
@@ -15296,7 +14423,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Korean Hroparts Elec"
+		(property "MF" "GCT"
 			(at 67.31 223.52 0)
 			(effects
 				(font
@@ -15305,7 +14432,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "TYPE-C-31-M-12"
+		(property "MFPN" "USB4105-GF-A"
 			(at 67.31 223.52 0)
 			(effects
 				(font
@@ -15314,7 +14441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "DigiKey" "2073-USB4105-GF-ACT-ND"
 			(at 67.31 223.52 0)
 			(effects
 				(font
@@ -15323,43 +14450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C165948"
-			(at 67.31 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 67.31 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 67.31 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 67.31 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "C165948"
 			(at 67.31 223.52 0)
 			(effects
 				(font
@@ -15550,15 +14641,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
-			(at 231.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Murata Electronics"
 			(at 231.14 128.27 0)
 			(effects
@@ -15577,7 +14659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "490-GRM155Z71A225KE44DCT-ND"
+		(property "DigiKey" "490-GRM155Z71A225KE44DCT-ND"
 			(at 231.14 128.27 0)
 			(effects
 				(font
@@ -15586,34 +14668,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 231.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 231.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 231.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "-"
 			(at 231.14 128.27 0)
 			(effects
 				(font
@@ -15692,15 +14747,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 111.76 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Murata Electronics"
 			(at 111.76 196.85 0)
 			(effects
@@ -15719,7 +14765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C528974"
+		(property "JLCPCB" "C528974"
 			(at 111.76 196.85 0)
 			(effects
 				(font
@@ -15728,34 +14774,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 111.76 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 111.76 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 111.76 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM155Z71A105KE01DCT-ND "
 			(at 111.76 196.85 0)
 			(effects
 				(font
@@ -15981,7 +15000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "JLCPCB" "C85812"
 			(at 240.03 90.17 0)
 			(effects
 				(font
@@ -15990,43 +15009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C85812"
-			(at 240.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 240.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 240.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 240.03 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-1005-1-ND "
 			(at 240.03 90.17 0)
 			(effects
 				(font
@@ -16168,7 +15151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "MF" "YAGEO"
 			(at 88.9 215.9 0)
 			(effects
 				(font
@@ -16177,7 +15160,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+		(property "MFPN" "AC0402FR-075K1L"
 			(at 88.9 215.9 0)
 			(effects
 				(font
@@ -16186,7 +15169,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "0402WGF5101TCE"
+		(property "DigiKey" "YAG3503CT-ND"
 			(at 88.9 215.9 0)
 			(effects
 				(font
@@ -16195,43 +15178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C25905"
-			(at 88.9 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 88.9 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 88.9 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 88.9 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "C144745"
 			(at 88.9 215.9 0)
 			(effects
 				(font
@@ -16376,16 +15323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 152.4 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -16403,7 +15341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -16412,34 +15350,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 152.4 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 152.4 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 152.4 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 152.4 54.61 0)
 			(effects
 				(font
@@ -16528,24 +15439,6 @@
 			)
 		)
 		(property "MFPN" "GRM155R71H103KA88D"
-			(at 49.53 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "JLCPCB"
-			(at 49.53 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "C77019"
 			(at 49.53 252.73 0)
 			(effects
 				(font
@@ -16690,16 +15583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 227.33 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 227.33 85.09 0)
 			(effects
 				(font
@@ -16717,7 +15601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 227.33 85.09 0)
 			(effects
 				(font
@@ -16726,34 +15610,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 227.33 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 227.33 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 227.33 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 227.33 85.09 0)
 			(effects
 				(font
@@ -16832,16 +15689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 261.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 261.62 168.91 0)
 			(effects
 				(font
@@ -16859,7 +15707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 261.62 168.91 0)
 			(effects
 				(font
@@ -16868,34 +15716,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 261.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 261.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 261.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 261.62 168.91 0)
 			(effects
 				(font
@@ -16973,15 +15794,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 259.08 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Murata Electronics"
 			(at 259.08 146.05 0)
 			(effects
@@ -17000,7 +15812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C2959727"
+		(property "JLCPCB" "C2959727"
 			(at 259.08 146.05 0)
 			(effects
 				(font
@@ -17009,34 +15821,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 259.08 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 259.08 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 259.08 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM188Z71A106KA73DCT-ND "
 			(at 259.08 146.05 0)
 			(effects
 				(font
@@ -17114,15 +15899,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 257.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Murata Electronics"
 			(at 257.81 133.35 0)
 			(effects
@@ -17141,7 +15917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C2959727"
+		(property "JLCPCB" "C2959727"
 			(at 257.81 133.35 0)
 			(effects
 				(font
@@ -17150,34 +15926,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 257.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 257.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 257.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM188Z71A106KA73DCT-ND "
 			(at 257.81 133.35 0)
 			(effects
 				(font
@@ -17256,16 +16005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 213.36 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 213.36 128.27 0)
 			(effects
 				(font
@@ -17283,7 +16023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 213.36 128.27 0)
 			(effects
 				(font
@@ -17292,34 +16032,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 213.36 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 213.36 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 213.36 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 213.36 128.27 0)
 			(effects
 				(font
@@ -17679,7 +16392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "JLCPCB" "C85402"
 			(at 88.9 193.04 0)
 			(effects
 				(font
@@ -17688,7 +16401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C85402"
+		(property "DigiKey" "1727-4189-1-ND "
 			(at 88.9 193.04 0)
 			(effects
 				(font
@@ -17765,16 +16478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 260.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 260.35 80.01 0)
 			(effects
 				(font
@@ -17792,7 +16496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 260.35 80.01 0)
 			(effects
 				(font
@@ -17801,34 +16505,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 260.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 260.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 260.35 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 260.35 80.01 0)
 			(effects
 				(font
@@ -17926,7 +16603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "DigiKey" "311-0.0JRCT-ND"
 			(at 59.69 252.73 0)
 			(effects
 				(font
@@ -17935,7 +16612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C60485"
+		(property "JLCPCB" "C60485"
 			(at 59.69 252.73 0)
 			(effects
 				(font
@@ -18030,7 +16707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "DigiKey" "587-5973-1-ND"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -18039,7 +16716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5669778"
+		(property "JLCPCB" "C5669778"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -18118,16 +16795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 134.62 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" " Murata Electronics"
+		(property "MF" "Murata Electronics"
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -18145,7 +16813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161494"
+		(property "JLCPCB" "C161494"
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -18154,34 +16822,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 134.62 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 134.62 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 134.62 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-GRM033Z71A104KE14DCT-ND "
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -18326,15 +16967,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Nexperia"
 			(at 210.82 80.01 0)
 			(effects
@@ -18353,7 +16985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C37704"
+		(property "JLCPCB" "C37704"
 			(at 210.82 80.01 0)
 			(effects
 				(font
@@ -18362,34 +16994,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "1727-2902-1-ND "
 			(at 210.82 80.01 0)
 			(effects
 				(font
@@ -18471,15 +17076,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 260.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MF" "Murata Electronics"
 			(at 260.35 100.33 0)
 			(effects
@@ -18498,7 +17094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C88945"
+		(property "JLCPCB" "C88945"
 			(at 260.35 100.33 0)
 			(effects
 				(font
@@ -18507,34 +17103,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 260.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 260.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 260.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-10024-1-ND "
 			(at 260.35 100.33 0)
 			(effects
 				(font

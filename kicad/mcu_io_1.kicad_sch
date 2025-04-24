@@ -6659,7 +6659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
+		(property "DigiKey" "568-MCXN947VDFT-ND"
 			(at 106.68 19.05 0)
 			(effects
 				(font
@@ -6668,43 +6668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "568-MCXN947VDFT-ND"
-			(at 106.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 106.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 106.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 106.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "-"
 			(at 106.68 19.05 0)
 			(effects
 				(font
@@ -7608,7 +7572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
+		(property "DigiKey" "568-MCXN947VDFT-ND"
 			(at 106.68 121.92 0)
 			(effects
 				(font
@@ -7617,43 +7581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "568-MCXN947VDFT-ND"
-			(at 106.68 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 106.68 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 106.68 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 106.68 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "-"
 			(at 106.68 121.92 0)
 			(effects
 				(font
@@ -8359,7 +8287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
+		(property "DigiKey" "1923-830108212309CT-ND"
 			(at 49.53 208.28 0)
 			(effects
 				(font
@@ -8368,43 +8296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1923-830108212309CT-ND"
-			(at 49.53 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 49.53 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 49.53 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 49.53 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "-"
 			(at 49.53 208.28 0)
 			(effects
 				(font
@@ -8489,7 +8381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "MF" "YAGEO"
 			(at 55.88 34.29 0)
 			(effects
 				(font
@@ -8498,7 +8390,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+		(property "MFPN" "AC0402FR-0710KL"
 			(at 55.88 34.29 0)
 			(effects
 				(font
@@ -8507,7 +8399,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "0402WGF1002TCE"
+		(property "DigiKey" "YAG3436CT-ND"
 			(at 55.88 34.29 0)
 			(effects
 				(font
@@ -8516,43 +8408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C25744"
-			(at 55.88 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 55.88 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 55.88 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 55.88 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "C144807"
 			(at 55.88 34.29 0)
 			(effects
 				(font
@@ -8715,24 +8571,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 57.15 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "C25744"
-			(at 57.15 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "51f288b5-2e8f-4b6b-bdd8-59d272cbbc5f")
 		)
@@ -8821,24 +8659,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 48.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "C25744"
-			(at 48.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8ab0012b-1541-4aec-a578-148d60661368")
 		)
@@ -8873,7 +8693,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "ISP"
 			(at 57.15 46.9899 90)
 			(effects
 				(font
@@ -8882,7 +8702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Switches:TS2306A"
+		(property "Footprint" "Switches:NanoTxxxAS"
 			(at 55.88 45.72 0)
 			(effects
 				(font
@@ -8891,7 +8711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/2866/nanot.pdf"
 			(at 55.88 45.72 0)
 			(effects
 				(font
@@ -8900,7 +8720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "SWITCH TACTILE SPST-NO 0.02A 15V"
 			(at 55.88 45.72 0)
 			(effects
 				(font
@@ -8909,7 +8729,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "SHOU HAN"
+		(property "MF" "C&K"
 			(at 55.88 45.72 0)
 			(effects
 				(font
@@ -8918,7 +8738,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "TS2306A 200gf 002"
+		(property "MFPN" "NANOT160AS"
 			(at 55.88 45.72 0)
 			(effects
 				(font
@@ -8927,7 +8747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "JLCPCB" "C2760981"
 			(at 55.88 45.72 0)
 			(effects
 				(font
@@ -8936,43 +8756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C5363482"
-			(at 55.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 55.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 55.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 55.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "108-NANOT160ASCT-ND"
 			(at 55.88 45.72 0)
 			(effects
 				(font
@@ -9068,24 +8852,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 57.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "C25744"
-			(at 57.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8ab0012b-1541-4aec-a578-148d60661369")
 		)
@@ -9171,7 +8937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "JLCPCB" "C161327"
 			(at 43.18 214.63 0)
 			(effects
 				(font
@@ -9180,43 +8946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161327"
-			(at 43.18 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 43.18 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 43.18 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 43.18 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-8102-1-ND "
 			(at 43.18 214.63 0)
 			(effects
 				(font
@@ -9310,7 +9040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
+		(property "DigiKey" "568-MCXN947VDFT-ND"
 			(at 106.68 210.82 0)
 			(effects
 				(font
@@ -9319,43 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "568-MCXN947VDFT-ND"
-			(at 106.68 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 106.68 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 106.68 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 106.68 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "JLCPCB" "-"
 			(at 106.68 210.82 0)
 			(effects
 				(font
@@ -9995,7 +9689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
+		(property "JLCPCB" "C161327"
 			(at 55.88 214.63 0)
 			(effects
 				(font
@@ -10004,43 +9698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "C161327"
-			(at 55.88 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 55.88 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 55.88 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 55.88 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
+		(property "DigiKey" "490-8102-1-ND "
 			(at 55.88 214.63 0)
 			(effects
 				(font
@@ -10135,24 +9793,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "JLCPCB"
-			(at 49.53 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "C26083"
-			(at 49.53 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "53b7fae7-8742-4348-94bc-ea871deea72e")
 		)
@@ -10232,24 +9872,6 @@
 			)
 		)
 		(property "MFPN" "0402WGF1002TCE"
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "JLCPCB"
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "C25744"
 			(at 66.04 138.43 0)
 			(effects
 				(font
