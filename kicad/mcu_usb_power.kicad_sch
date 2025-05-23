@@ -11152,7 +11152,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "GRM21BR71H105KA12L"
+		(property "MFPN" "GJ821BR71H105KA12L"
 			(at 96.52 196.85 0)
 			(effects
 				(font
@@ -11161,7 +11161,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C77083"
+		(property "JLCPCB" "C161281"
+			(at 96.52 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "490-14440-1-ND"
 			(at 96.52 196.85 0)
 			(effects
 				(font
