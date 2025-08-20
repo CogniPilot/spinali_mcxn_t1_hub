@@ -5,11 +5,10 @@
 	(uuid "0597a813-26a3-4e9f-925d-099ef05f86a0")
 	(paper "A3")
 	(title_block
-		(title "MR-MCXN-T1 Sensor Node")
+		(title "MR-MCXN-T1")
 		(date "2025-03-28")
 		(rev "X0")
 		(company "NXP SEMICONDUCTORS B.V.")
-		(comment 1 "CLASSIFICATION: INTERNAL USE ONLY")
 		(comment 3 "DESIGNER: YOURI TILS")
 		(comment 4 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
 	)

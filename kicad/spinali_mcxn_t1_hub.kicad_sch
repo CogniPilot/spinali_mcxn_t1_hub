@@ -5,16 +5,15 @@
 	(uuid "8b469ec1-e800-4d46-8a32-95d77ceae6db")
 	(paper "A4")
 	(title_block
-		(title "MR-MCXN-T1 Sensor Node")
+		(title "MR-MCXN-T1")
 		(date "2025-03-28")
 		(rev "X0")
 		(company "NXP SEMICONDUCTORS B.V.")
-		(comment 1 "CLASSIFICATION: INTERNAL USE ONLY")
 		(comment 3 "DESIGNER: YOURI TILS")
 		(comment 4 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
 	)
 	(lib_symbols)
-	(text "MR-MCXN-T1 Sensor Node"
+	(text "MR-MCXN-T1"
 		(exclude_from_sim no)
 		(at 154.94 91.186 0)
 		(effects
@@ -67,7 +66,7 @@
 			)
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db"
 					(page "8")
 				)
@@ -105,7 +104,7 @@
 			)
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db"
 					(page "3")
 				)
@@ -143,7 +142,7 @@
 			)
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db"
 					(page "4")
 				)
@@ -181,7 +180,7 @@
 			)
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db"
 					(page "9")
 				)
@@ -219,7 +218,7 @@
 			)
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db"
 					(page "6")
 				)
@@ -257,7 +256,7 @@
 			)
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db"
 					(page "7")
 				)
@@ -295,7 +294,7 @@
 			)
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db"
 					(page "5")
 				)
@@ -333,7 +332,7 @@
 			)
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db"
 					(page "2")
 				)

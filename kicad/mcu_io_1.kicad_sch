@@ -5,11 +5,10 @@
 	(uuid "630aab02-66f7-4976-a047-07d62140dd0d")
 	(paper "A3")
 	(title_block
-		(title "MR-MCXN-T1 Sensor Node")
+		(title "MR-MCXN-T1")
 		(date "2025-03-28")
 		(rev "X0")
 		(company "NXP SEMICONDUCTORS B.V.")
-		(comment 1 "CLASSIFICATION: INTERNAL USE ONLY")
 		(comment 3 "DESIGNER: YOURI TILS")
 		(comment 4 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
 	)
@@ -6579,7 +6578,7 @@
 			(uuid "0cee1dcd-5f01-4634-a37a-dc11d12f2372")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/2f800241-08a7-49e7-97bc-35e3807b9c21"
 					(reference "#PWR053")
 					(unit 1)
@@ -7296,7 +7295,7 @@
 			(uuid "d176c805-876f-4a94-bdd4-33ff99328922")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/2f800241-08a7-49e7-97bc-35e3807b9c21"
 					(reference "#PWR048")
 					(unit 1)
@@ -7362,7 +7361,7 @@
 			(uuid "f99dc86f-9620-46fe-a41d-b4e5ef321335")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/2f800241-08a7-49e7-97bc-35e3807b9c21"
 					(reference "#PWR052")
 					(unit 1)
@@ -7428,7 +7427,7 @@
 			(uuid "0415f11b-b2e9-4249-ae95-805df503a3a6")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/2f800241-08a7-49e7-97bc-35e3807b9c21"
 					(reference "#PWR051")
 					(unit 1)
@@ -7494,7 +7493,7 @@
 			(uuid "8c2e7053-b52a-42b8-9ed1-8a9410ac2d00")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/2f800241-08a7-49e7-97bc-35e3807b9c21"
 					(reference "#PWR054")
 					(unit 1)
@@ -8490,7 +8489,7 @@
 			(uuid "3ba3f7e6-18de-419d-8652-e2bd55c4f3de")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/2f800241-08a7-49e7-97bc-35e3807b9c21"
 					(reference "#PWR050")
 					(unit 1)
@@ -8578,7 +8577,7 @@
 			(uuid "97a563c4-b4cb-452e-bfd3-548ad7ac539c")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/2f800241-08a7-49e7-97bc-35e3807b9c21"
 					(reference "R18")
 					(unit 1)
@@ -9887,7 +9886,7 @@
 			(uuid "8060faf3-ac8a-4df4-8c7e-425f911e34cd")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/2f800241-08a7-49e7-97bc-35e3807b9c21"
 					(reference "R19")
 					(unit 1)
@@ -9953,7 +9952,7 @@
 			(uuid "b8e9b975-d109-4910-9c74-8647965ed8b8")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/2f800241-08a7-49e7-97bc-35e3807b9c21"
 					(reference "#PWR055")
 					(unit 1)

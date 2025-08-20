@@ -5,11 +5,10 @@
 	(uuid "c53aeca7-9661-40f7-a17e-e1abd827ac33")
 	(paper "A3")
 	(title_block
-		(title "MR-MCXN-T1 Sensor Node")
+		(title "MR-MCXN-T1")
 		(date "2025-03-28")
 		(rev "X0")
 		(company "NXP SEMICONDUCTORS B.V.")
-		(comment 1 "CLASSIFICATION: INTERNAL USE ONLY")
 		(comment 3 "DESIGNER: YOURI TILS")
 		(comment 4 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
 	)
@@ -4504,7 +4503,7 @@
 			(uuid "94817acd-b71d-4692-a075-f819372fa525")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C83")
 					(unit 1)
@@ -4571,7 +4570,7 @@
 			(uuid "3735ca22-43b2-42f2-ace6-18a87073e351")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0232")
 					(unit 1)
@@ -4677,7 +4676,7 @@
 			(uuid "09349a8b-7904-4fc1-934c-ddf6cc2f0e4e")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "L9")
 					(unit 1)
@@ -4743,7 +4742,7 @@
 			(uuid "0628f3f6-c486-4ba3-afcf-39c9b0a9e489")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0217")
 					(unit 1)
@@ -4848,7 +4847,7 @@
 			(uuid "caaceff1-ca49-4a03-b977-384f6118ac69")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C86")
 					(unit 1)
@@ -4953,7 +4952,7 @@
 			(uuid "1c0ffde5-f890-4e75-8a2d-e0d256f45b4c")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C85")
 					(unit 1)
@@ -5019,7 +5018,7 @@
 			(uuid "5b109758-3c2a-40cd-9d37-4a5e81419660")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0231")
 					(unit 1)
@@ -5125,7 +5124,7 @@
 			(uuid "074231b5-248f-43b2-a486-fb9cf836b9fa")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "L8")
 					(unit 1)
@@ -5230,7 +5229,7 @@
 			(uuid "0f9ff250-6b93-444c-9cbd-a0ea056b6401")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C82")
 					(unit 1)
@@ -5296,7 +5295,7 @@
 			(uuid "68c28434-aac1-4398-acdc-121380cfa09d")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0224")
 					(unit 1)
@@ -5362,7 +5361,7 @@
 			(uuid "e7102daf-26a6-4a66-857e-cf67dbb303d2")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0234")
 					(unit 1)
@@ -5468,7 +5467,7 @@
 			(uuid "8d05bea7-a953-4370-8b27-7d3036cd1788")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R44")
 					(unit 1)
@@ -5573,7 +5572,7 @@
 			(uuid "b00201dc-c371-4c96-a297-ad6020b75426")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C81")
 					(unit 1)
@@ -5639,7 +5638,7 @@
 			(uuid "b3ca2651-3cc8-4d08-94be-a47de526beec")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0223")
 					(unit 1)
@@ -5705,7 +5704,7 @@
 			(uuid "4b40cb02-6fef-4854-8a3f-c1840cda1f17")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0215")
 					(unit 1)
@@ -5915,7 +5914,7 @@
 			(uuid "ad56de63-2a61-46a4-a6c7-78063a7df20b")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "U15")
 					(unit 1)
@@ -6021,7 +6020,7 @@
 			(uuid "73bea01c-b055-4ba5-bc2e-627a6f86d05e")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "D12")
 					(unit 1)
@@ -6127,7 +6126,7 @@
 			(uuid "80615096-a8b8-4f89-b0b7-01e3280947ce")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R32")
 					(unit 1)
@@ -6212,7 +6211,7 @@
 			(uuid "31e5fbcf-670b-4c61-a107-cc8af8a18685")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "TP2")
 					(unit 1)
@@ -6318,7 +6317,7 @@
 			(uuid "28c554fa-e93c-4529-8f7b-948aa293f238")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C91")
 					(unit 1)
@@ -6423,7 +6422,7 @@
 			(uuid "83fb8b43-05e0-4110-bcfe-ebace97be58b")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C80")
 					(unit 1)
@@ -6622,7 +6621,7 @@
 			(uuid "108e26ba-c8dc-4a76-b73a-808cbd58f15d")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R40")
 					(unit 1)
@@ -6728,7 +6727,7 @@
 			(uuid "5536de8a-8f9b-4516-ad43-f554db37bdb2")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R35")
 					(unit 1)
@@ -6838,7 +6837,7 @@
 			(uuid "f7b18f99-9e1f-4557-8b56-b9539ae321da")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "Y3")
 					(unit 1)
@@ -6944,7 +6943,7 @@
 			(uuid "e3aee5a0-c454-4fdc-bcb7-13d6049f9264")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C87")
 					(unit 1)
@@ -7050,7 +7049,7 @@
 			(uuid "9a27789d-6761-4471-8037-c4fbee3d9b8a")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C89")
 					(unit 1)
@@ -7116,7 +7115,7 @@
 			(uuid "549d4f21-6a9b-44e2-8379-ee515c1af6df")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0207")
 					(unit 1)
@@ -7182,7 +7181,7 @@
 			(uuid "4648a775-c2b6-48fe-ba4b-bc8615a689ab")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0212")
 					(unit 1)
@@ -7248,7 +7247,7 @@
 			(uuid "d0e44ca5-6e70-4dd2-bc72-7645fe0c7796")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0218")
 					(unit 1)
@@ -7314,7 +7313,7 @@
 			(uuid "9c5b78fe-0698-43a8-bc50-396e449e4a70")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0209")
 					(unit 1)
@@ -7420,7 +7419,7 @@
 			(uuid "4e7a70b2-d9a9-4424-8583-3e6eb54a20c8")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "D13")
 					(unit 1)
@@ -7486,7 +7485,7 @@
 			(uuid "d5c425f4-9653-48ac-8d1f-dbf679f1dc3a")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0208")
 					(unit 1)
@@ -7552,7 +7551,7 @@
 			(uuid "8120a42a-96f5-48b8-b8cd-e970187b4318")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0227")
 					(unit 1)
@@ -7619,7 +7618,7 @@
 			(uuid "87cd8893-240e-4a24-9902-4ff95f911be4")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0230")
 					(unit 1)
@@ -7725,7 +7724,7 @@
 			(uuid "bf6fb89b-a7ef-4931-b840-d244e65ab264")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R37")
 					(unit 1)
@@ -7791,7 +7790,7 @@
 			(uuid "47db76b0-3c41-4555-862e-27baa297806b")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0225")
 					(unit 1)
@@ -7894,7 +7893,7 @@
 			(uuid "deb524d7-6eda-4bf1-a68c-155ee1be6594")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C92")
 					(unit 1)
@@ -8000,7 +7999,7 @@
 			(uuid "01d7795e-9d6d-4ea4-88c9-eeeb1e60c973")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R45")
 					(unit 1)
@@ -8318,7 +8317,7 @@
 			(uuid "418b3cb0-18e7-4c2b-a7f6-d623adfa0202")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R39")
 					(unit 1)
@@ -8384,7 +8383,7 @@
 			(uuid "6175f021-3515-46dc-9775-129adee3bb4f")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0222")
 					(unit 1)
@@ -8450,7 +8449,7 @@
 			(uuid "773e220e-50c9-479c-8abb-75b1a7a6e234")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0220")
 					(unit 1)
@@ -8516,7 +8515,7 @@
 			(uuid "125c3550-0faf-452e-8344-95a4afb13043")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0210")
 					(unit 1)
@@ -8622,7 +8621,7 @@
 			(uuid "fa1b3ae5-fb76-40fb-8375-12f1eef689e1")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C88")
 					(unit 1)
@@ -8726,7 +8725,7 @@
 			(uuid "cf36b4eb-8476-4d2e-8578-515ee11434f1")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C84")
 					(unit 1)
@@ -8829,7 +8828,7 @@
 			(uuid "d23414af-a27a-438b-8094-abbb853a39a8")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C93")
 					(unit 1)
@@ -8936,7 +8935,7 @@
 			(uuid "5057c408-3a8d-45ac-8383-cb5466ba3b8d")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C90")
 					(unit 1)
@@ -9002,7 +9001,7 @@
 			(uuid "873c332d-69f1-4803-9305-154916313281")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0226")
 					(unit 1)
@@ -9068,7 +9067,7 @@
 			(uuid "1733770c-deb2-4294-8090-7f8f24965a78")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0213")
 					(unit 1)
@@ -9278,7 +9277,7 @@
 			(uuid "e0b595bf-ac9a-4724-82f5-a320da898a80")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R38")
 					(unit 1)
@@ -9344,7 +9343,7 @@
 			(uuid "7f5ec057-e4e1-4137-913b-eba0dd23c0cf")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0214")
 					(unit 1)
@@ -9447,7 +9446,7 @@
 			(uuid "b5cafd74-fc83-4169-84b4-8fbf27ea888a")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C94")
 					(unit 1)
@@ -9513,7 +9512,7 @@
 			(uuid "a2014bed-13b0-4fbe-854b-41b1c9d8b88a")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0216")
 					(unit 1)
@@ -9619,7 +9618,7 @@
 			(uuid "a757eb61-c4a2-475f-97c8-69a99c0922e5")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R41")
 					(unit 1)
@@ -9704,7 +9703,7 @@
 			(uuid "61be39f8-9484-44d9-a491-bf678a1ef86b")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "TP1")
 					(unit 1)
@@ -9770,7 +9769,7 @@
 			(uuid "b519e838-914d-423e-9d6a-787928a568a6")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0219")
 					(unit 1)
@@ -9836,7 +9835,7 @@
 			(uuid "7cb18865-778e-4f13-be96-e341c7237412")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0229")
 					(unit 1)
@@ -9942,7 +9941,7 @@
 			(uuid "3543210e-f1b0-4802-815c-73535e1fb9ef")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R36")
 					(unit 1)
@@ -10046,7 +10045,7 @@
 			(uuid "dd4c49e5-7f5c-4e4a-9680-6d1b7d75840b")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R42")
 					(unit 1)
@@ -10151,7 +10150,7 @@
 			(uuid "c4e49337-76b7-4e0e-a156-f678115efe27")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "C79")
 					(unit 1)
@@ -10329,7 +10328,7 @@
 			(uuid "9bd2778e-61df-4ade-975f-d29e449d2951")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0228")
 					(unit 1)
@@ -10395,7 +10394,7 @@
 			(uuid "45d03e6f-4b06-482b-97bb-9594b2f2daf3")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0233")
 					(unit 1)
@@ -10567,7 +10566,7 @@
 			(uuid "a116fb89-ba1a-4ab1-a06f-bb2b117db8a3")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0221")
 					(unit 1)
@@ -10633,7 +10632,7 @@
 			(uuid "8c3d8a40-a13c-4a0e-bcac-fad2cfe9463d")
 		)
 		(instances
-			(project "spinali_mcxn_t1_sensor_hub"
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "#PWR0211")
 					(unit 1)

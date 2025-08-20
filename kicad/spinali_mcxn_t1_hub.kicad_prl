@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "spinali_mcxn_t1_sensor_hub.kicad_prl",
+    "filename": "spinali_mcxn_t1_hub.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
