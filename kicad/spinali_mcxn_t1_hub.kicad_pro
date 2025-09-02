@@ -132,7 +132,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.5,
         "min_microvia_drill": 0.2,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
@@ -432,10 +432,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -448,9 +453,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -654,10 +664,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "production/",
+      "pos_files": "production/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "production/spinali_mcxn_t1_hub.step",
       "svg": "",
       "vrml": ""
     },
@@ -665,7 +675,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "production\\bom_mcxn_t1_v3.csv",
+    "bom_export_filename": "production\\bom_mcxn_t1.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -717,7 +727,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": false
@@ -738,7 +748,7 @@
           "group_by": false,
           "label": "JLCPCB",
           "name": "JLCPCB",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -755,6 +765,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "MF"
@@ -788,7 +799,8 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "NXP.kicad_wks",
-    "plot_directory": "./",
+    "plot_directory": "production/",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

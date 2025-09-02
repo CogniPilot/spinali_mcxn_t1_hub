@@ -1,4 +1,4 @@
 kicad/*-backups/
 fp-info-cache
-kicad/production/
+kicad/production/*backups
 kicad/fabrication-toolkit-options.json
