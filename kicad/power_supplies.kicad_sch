@@ -3358,6 +3358,225 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistors:BC846BM"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 9.906 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC846BM,315"
+				(at 9.906 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:Diodes_DFN1006-3"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846BM.pdf"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar (BJT) Transistor NPN 65 V 100 mA 100MHz 250 mW Surface Mount DFN1006B-3"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Nexperia USA Inc."
+				(at 0 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFPN" "BC846BM,315"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "1727-8102-1-ND"
+				(at 0 -27.686 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN BJT BC846"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC846BM_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.715 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0.635) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -0.635) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.778) (xy 6.858 -1.27) (xy 7.366 -2.286) (xy 6.35 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BC846BM_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3960,16 +4179,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Blue"
-		(exclude_from_sim no)
-		(at 255.524 138.938 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "076a973f-73ee-4eac-99fd-26b4b80a5a3d")
-	)
 	(text "200mA max"
 		(exclude_from_sim no)
 		(at 249.174 230.378 0)
@@ -4019,16 +4228,6 @@
 			)
 		)
 		(uuid "339d795f-56ad-46c8-aaf7-4562c5f4f9c7")
-	)
-	(text "Blue"
-		(exclude_from_sim no)
-		(at 261.112 250.698 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "36a101b2-3dcf-416a-bb45-531edc2f6222")
 	)
 	(text "eff = 90%"
 		(exclude_from_sim no)
@@ -4080,15 +4279,25 @@
 		)
 		(uuid "5f19dcb8-b0e8-45f5-9b1a-7ed9cb54437b")
 	)
-	(text "Blue"
+	(text "Blue\n3.3Vf"
 		(exclude_from_sim no)
-		(at 255.524 189.484 0)
+		(at 255.778 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "5f6e8be5-47be-40bd-9883-061e840040e9")
+	)
+	(text "Blue\n3.3Vf"
+		(exclude_from_sim no)
+		(at 255.524 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6426332a-52b8-434a-924d-0b6763c8565d")
 	)
 	(text "dVout_ripple < 10mV"
 		(exclude_from_sim no)
@@ -4099,6 +4308,16 @@
 			)
 		)
 		(uuid "69db44d6-4101-4954-a5f3-84e58b748c71")
+	)
+	(text "Green\n2.1Vf"
+		(exclude_from_sim no)
+		(at 267.97 222.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b990e94-3c6b-42ff-897b-91f3bc186858")
 	)
 	(text "LED turns off \nat fault condition"
 		(exclude_from_sim no)
@@ -4200,9 +4419,9 @@
 		)
 		(uuid "a368f12d-5f49-4fce-970e-09ac304ccba9")
 	)
-	(text "Blue"
+	(text "Green\n2.1Vf"
 		(exclude_from_sim no)
-		(at 193.802 250.444 0)
+		(at 194.564 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4583,6 +4802,16 @@
 	(no_connect
 		(at 288.29 168.91)
 		(uuid "fb34fc56-61ef-4eac-b0c0-ac1465ae8f69")
+	)
+	(wire
+		(pts
+			(xy 273.05 217.17) (xy 273.05 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002e008c-9967-4e3f-a54b-b77c9e88e097")
 	)
 	(wire
 		(pts
@@ -5456,7 +5685,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 232.41) (xy 255.27 232.41)
+			(xy 241.3 232.41) (xy 256.54 232.41)
 		)
 		(stroke
 			(width 0)
@@ -5533,16 +5762,6 @@
 			(type default)
 		)
 		(uuid "931fc0c3-3f21-45af-b0a1-eb37d9caecf1")
-	)
-	(wire
-		(pts
-			(xy 255.27 232.41) (xy 255.27 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97c20365-22ed-45d8-8bc3-b22cb3833a21")
 	)
 	(wire
 		(pts
@@ -5643,6 +5862,16 @@
 			(type default)
 		)
 		(uuid "a42a49e1-c2ce-4e5d-8e8f-b017f5451a95")
+	)
+	(wire
+		(pts
+			(xy 264.16 232.41) (xy 265.43 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8912328-567b-4787-a9ea-8ffbd8c5d839")
 	)
 	(wire
 		(pts
@@ -5863,6 +6092,16 @@
 			(type default)
 		)
 		(uuid "d87bddbf-e6b6-45bb-aa1b-688ca0cf607b")
+	)
+	(wire
+		(pts
+			(xy 273.05 226.06) (xy 273.05 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8daf2ad-e3db-457d-86c6-dff6f4637028")
 	)
 	(wire
 		(pts
@@ -6226,7 +6465,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "APHHS1005QBC/D"
+		(property "MFPN" "APHHS1005CGCK"
 			(at 187.96 245.11 0)
 			(effects
 				(font
@@ -6235,7 +6474,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "754-1504-1-ND"
+		(property "DigiKey" "754-1101-1-ND"
 			(at 187.96 245.11 0)
 			(effects
 				(font
@@ -6244,7 +6483,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2853064"
+		(property "JLCPCB" ""
 			(at 187.96 245.11 0)
 			(effects
 				(font
@@ -6968,72 +7207,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 255.27 248.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14a9d79b-5059-4d3b-b242-8f1757f93819")
-		(property "Reference" "#PWR046"
-			(at 255.27 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "acef3258-45f8-4965-a204-0dac94194406")
-		)
-		(instances
-			(project "flow_max"
-				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 121.92 157.48 0)
 		(unit 1)
@@ -7133,6 +7306,106 @@
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistors:BC846BM")
+		(at 265.43 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f0debb3-5489-4de7-ae31-66a1399d4da5")
+		(property "Reference" "Q2"
+			(at 275.59 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846BM,315"
+			(at 275.59 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Diodes_DFN1006-3"
+			(at 265.43 252.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846BM.pdf"
+			(at 265.43 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar (BJT) Transistor NPN 65 V 100 mA 100MHz 250 mW Surface Mount DFN1006B-3"
+			(at 265.43 255.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Nexperia USA Inc."
+			(at 265.43 250.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "BC846BM,315"
+			(at 265.43 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1727-8102-1-ND"
+			(at 265.43 260.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f502c244-8098-49f8-bc91-4ee2af6cc34f")
+		)
+		(pin "3"
+			(uuid "ef0815d6-5061-4538-8e0a-40f89714d6b1")
+		)
+		(pin "1"
+			(uuid "3929391e-089c-4223-b780-edd1dd7d0918")
+		)
+		(instances
+			(project ""
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7305,112 +7578,6 @@
 			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 255.27 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fdb1b4a-5fc2-4a0d-8a8c-c272345108c9")
-		(property "Reference" "R13"
-			(at 257.81 236.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 257.81 238.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 253.492 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 255.27 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "YAGEO"
-			(at 255.27 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFPN" "AC0402FR-071KL"
-			(at 255.27 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "311-1KLBCT-ND"
-			(at 255.27 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C144789"
-			(at 255.27 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7320e0c7-f3df-40f4-bd48-7f0dcd959a53")
-		)
-		(pin "1"
-			(uuid "97f8e988-936a-4f05-8507-d37f4f775260")
-		)
-		(instances
-			(project "flow_max"
-				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8875,6 +9042,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 273.05 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41ddbb31-217d-45ad-a345-f5ed148ae740")
+		(property "Reference" "#PWR046"
+			(at 273.05 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdc1038b-5aaf-497e-8eca-cff9eeffec52")
+		)
+		(instances
+			(project "spinali_mcxn_t1_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 220.98 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9694,112 +9927,6 @@
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 255.27 245.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bb6152f-6912-417b-aaf5-31a300f4b4dd")
-		(property "Reference" "D5"
-			(at 259.08 245.4274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1V8-IND"
-			(at 259.08 247.9674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 255.27 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 255.27 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Kingbright"
-			(at 255.27 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFPN" "APHHS1005QBC/D"
-			(at 255.27 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "754-1504-1-ND"
-			(at 255.27 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2853064"
-			(at 255.27 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e10f7a01-1589-40c3-81f8-7a0cf0ed9731")
-		)
-		(pin "2"
-			(uuid "666a9b88-4e1b-4e57-9621-459327596687")
-		)
-		(instances
-			(project ""
-				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11352,6 +11479,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 273.05 222.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c4dd3e0-61d2-40e2-8c92-eaefc2278bf2")
+		(property "Reference" "D5"
+			(at 275.59 221.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3V3-IND"
+			(at 275.59 223.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 273.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 273.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Kingbright"
+			(at 273.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "APHHS1005CGCK"
+			(at 273.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "754-1101-1-ND"
+			(at 273.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 273.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05e84e05-0b25-48b4-8d8b-6a57efb61111")
+		)
+		(pin "2"
+			(uuid "5d0160a8-ed2a-4241-ab76-90a76da1ab76")
+		)
+		(instances
+			(project "spinali_mcxn_t1_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 120.65 176.53 180)
 		(unit 1)
@@ -11784,7 +12016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k5"
 			(at 190.5 238.7599 0)
 			(effects
 				(font
@@ -11829,7 +12061,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "AC0402FR-071KL"
+		(property "MFPN" "RC0402FR-131K5L"
 			(at 187.96 237.49 0)
 			(effects
 				(font
@@ -11838,7 +12070,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-1KLBCT-ND"
+		(property "DigiKey" "13-RC0402FR-131K5LCT-ND"
 			(at 187.96 237.49 0)
 			(effects
 				(font
@@ -11847,7 +12079,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C144789"
+		(property "JLCPCB" ""
 			(at 187.96 237.49 0)
 			(effects
 				(font
@@ -13030,6 +13262,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 260.35 232.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1530f90-93c5-4251-a1ad-eaa97bfe972f")
+		(property "Reference" "R50"
+			(at 260.35 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "390k"
+			(at 260.35 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 260.35 234.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "390 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-07390KL"
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "YAG3143CT-ND"
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1194e75-bcbf-480a-a821-482f9074d442")
+		)
+		(pin "2"
+			(uuid "3a76ffdb-e63c-4805-8d27-600bf2272108")
+		)
+		(instances
+			(project ""
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 209.55 170.18 0)
 		(unit 1)
@@ -13203,6 +13530,72 @@
 			(project ""
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 273.05 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4884034-cac8-4d93-b4f2-889ead055b19")
+		(property "Reference" "#PWR0242"
+			(at 273.05 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 273.05 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 273.05 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83933c8c-5aa5-4cc7-9199-aaf328eef92a")
+		)
+		(instances
+			(project "spinali_mcxn_t1_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -13848,6 +14241,112 @@
 			(project "flow_max"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 273.05 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc7a3b7c-c679-49cc-a176-3e2badb06e4d")
+		(property "Reference" "R13"
+			(at 275.59 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k5"
+			(at 275.59 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 271.272 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 273.05 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 273.05 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-131K5L"
+			(at 273.05 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "13-RC0402FR-131K5LCT-ND"
+			(at 273.05 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 273.05 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ccc3c3c8-8626-4b43-9404-af24b0b558f5")
+		)
+		(pin "1"
+			(uuid "c652d173-392e-4855-aca4-32c21a099672")
+		)
+		(instances
+			(project "spinali_mcxn_t1_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/cd546697-22c1-446e-bf49-97c1431cc780"
+					(reference "R13")
 					(unit 1)
 				)
 			)
