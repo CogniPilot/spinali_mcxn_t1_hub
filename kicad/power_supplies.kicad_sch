@@ -4479,6 +4479,16 @@
 		)
 		(uuid "c7df8862-e7b9-4f0c-8404-ed3401d14e93")
 	)
+	(text "Micro Lock PLUS family mating cable:\n- Precrimped wire BLK 2175001125\n- Precrimped wire RED 2175002125\n- Socket 5055700401"
+		(exclude_from_sim no)
+		(at 43.18 28.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd5c044f-a36a-403f-9706-03012b769bed")
+	)
 	(text "LED turns off \nat fault condition"
 		(exclude_from_sim no)
 		(at 260.096 196.85 0)
