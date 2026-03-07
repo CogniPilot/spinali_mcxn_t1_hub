@@ -1,0 +1,35 @@
+name: Sync to NXP-Robotics fork
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  sync:
+    if: github.repository == 'CogniPilot/spinali_mcxn_t1_hub'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Verify secret is set
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::error::NXP_ROBOTICS_TOKEN secret is empty or not set"
+            exit 1
+          fi
+          echo "Token length: ${#TOKEN}"
+        env:
+          TOKEN: ${{ secrets.NXP_ROBOTICS_TOKEN }}
+
+      - name: Push to NXP-Robotics fork
+        env:
+          NXP_TOKEN: ${{ secrets.NXP_ROBOTICS_TOKEN }}
+        run: |
+          git config --unset-all http.https://github.com/.extraheader || true
+          git remote add fork "https://x-access-token:${NXP_TOKEN}@github.com/NXP-Robotics/mr_mcxn_t1_hub.git"
+          git push fork "${{ github.ref }}" --force

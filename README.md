@@ -26,4 +26,7 @@ MR-MCXN-T1 Top view  |  MR-MCXN-T1 Bottom view
 > [!NOTE]
 > Designed with KiCAD
 > 
-> All JST-GH connectors pinout follows the [DS-009 Pixhawk Connector Standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf).
+> All JST-GH connector pinouts follows the [DS-009 Connector Standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf).
+
+> [!NOTE]
+> If desiring to contribute please open [all PRs here](https://github.com/CogniPilot/spinali_mcxn_t1_hub/pulls).
