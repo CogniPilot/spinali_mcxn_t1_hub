@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "MR-MCXN-T1")
-		(date "2025-03-28")
-		(rev "X0")
+		(date "2026-07-24")
+		(rev "X1")
 		(company "NXP SEMICONDUCTORS B.V.")
-		(comment 3 "DESIGNER: YOURI TILS")
-		(comment 4 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
+		(comment 1 "DESIGNER: YOURI TILS")
+		(comment 2 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
 	)
 	(lib_symbols)
 	(text "MR-MCXN-T1"
@@ -25,12 +25,14 @@
 		)
 		(uuid "b0600df4-4b6d-40da-9113-b7d84967cecb")
 	)
-	(text "Library used: https://github.com/CDFER/JLCPCB-Kicad-Library/tree/main"
+	(text "Library used: https://github.com/CogniPilot/spinali_kicad_libs"
 		(exclude_from_sim no)
 		(at 153.924 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.381)
+				(bold yes)
 			)
 		)
 		(uuid "c7daae81-4b6d-4b02-8706-d9b961b70b9c")

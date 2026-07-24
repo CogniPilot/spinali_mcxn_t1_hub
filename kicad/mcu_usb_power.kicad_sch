@@ -6,11 +6,11 @@
 	(paper "A3")
 	(title_block
 		(title "MR-MCXN-T1")
-		(date "2025-03-28")
-		(rev "X0")
+		(date "2026-07-24")
+		(rev "X1")
 		(company "NXP SEMICONDUCTORS B.V.")
-		(comment 3 "DESIGNER: YOURI TILS")
-		(comment 4 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
+		(comment 1 "DESIGNER: YOURI TILS")
+		(comment 2 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"

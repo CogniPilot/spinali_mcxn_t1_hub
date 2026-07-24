@@ -6,11 +6,11 @@
 	(paper "A3")
 	(title_block
 		(title "MR-MCXN-T1")
-		(date "2025-03-28")
-		(rev "X0")
+		(date "2026-07-24")
+		(rev "X1")
 		(company "NXP SEMICONDUCTORS B.V.")
-		(comment 3 "DESIGNER: YOURI TILS")
-		(comment 4 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
+		(comment 1 "DESIGNER: YOURI TILS")
+		(comment 2 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -8528,7 +8528,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "844f5624-bfa8-4fbf-98c4-52038c439b28")
 		(property "Reference" "R18"
 			(at 54.61 137.1599 0)
@@ -8634,7 +8634,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9c1b5724-5948-467c-904b-49769ae8c8b0")
 		(property "Reference" "R16"
 			(at 45.72 67.3099 0)
@@ -8845,7 +8845,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "eb68252e-5c09-43aa-8467-d466807e9f1c")
 		(property "Reference" "R17"
 			(at 54.61 67.3099 0)
@@ -9900,7 +9900,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "fec8a7bd-cc91-4419-a613-1a79cbb4355b")
 		(property "Reference" "R19"
 			(at 63.5 137.1599 0)
