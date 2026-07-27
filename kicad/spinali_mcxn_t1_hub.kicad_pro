@@ -529,14 +529,13 @@
         "bus_width": 12,
         "clearance": 0.25,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.5,
         "microvia_drill": 0.2,
         "name": "100Ohm differential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.14,
         "via_diameter": 0.3,
@@ -544,17 +543,30 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.23,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.2,
+        "name": "120Ohm differential",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.23,
+        "via_diameter": 0.3,
+        "via_drill": 0.2
+      },
+      {
         "bus_width": 12,
         "clearance": 0.3,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.5,
         "microvia_drill": 0.2,
         "name": "50Ohm single ended",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.3,
@@ -565,14 +577,13 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.5,
         "microvia_drill": 0.2,
         "name": "90Ohm differential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
         "via_diameter": 0.3,
@@ -583,14 +594,13 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.5,
         "microvia_drill": 0.2,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.3,
@@ -659,6 +669,38 @@
       {
         "netclass": "90Ohm differential",
         "pattern": "Net-(U7G-USB1_DP)"
+      },
+      {
+        "netclass": "120Ohm differential",
+        "pattern": "/Communication/CAN1_P"
+      },
+      {
+        "netclass": "120Ohm differential",
+        "pattern": "/Communication/CAN1_N"
+      },
+      {
+        "netclass": "120Ohm differential",
+        "pattern": "/Communication/CAN1_CONN_P"
+      },
+      {
+        "netclass": "120Ohm differential",
+        "pattern": "/Communication/CAN1_CONN_N"
+      },
+      {
+        "netclass": "120Ohm differential",
+        "pattern": "/Communication/CAN0_P"
+      },
+      {
+        "netclass": "120Ohm differential",
+        "pattern": "/Communication/CAN0_N"
+      },
+      {
+        "netclass": "120Ohm differential",
+        "pattern": "/Communication/CAN0_CONN_P"
+      },
+      {
+        "netclass": "120Ohm differential",
+        "pattern": "/Communication/CAN0_CONN_N"
       }
     ]
   },

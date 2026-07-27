@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MR-MCXN-T1")
-		(date "2026-07-24")
+		(date "2026-07-27")
 		(rev "X1")
 		(company "NXP SEMICONDUCTORS B.V.")
 		(comment 1 "DESIGNER: YOURI TILS")
@@ -4665,6 +4665,86 @@
 			(type default)
 		)
 		(uuid "ffd4e653-feef-4cda-98eb-971427d35652")
+	)
+	(label "CAN0_N"
+		(at 172.72 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c0a255a-d0c0-40cb-9776-56aaa129ab94")
+	)
+	(label "CAN1_P"
+		(at 172.72 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "385d630e-2f5e-467f-b7a0-01b90b3d197e")
+	)
+	(label "CAN0_CONN_P"
+		(at 256.54 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55f11af0-605c-4faa-b06b-5c3e314cccea")
+	)
+	(label "CAN1_N"
+		(at 172.72 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "886c28f7-8fdd-492e-bbcf-286b30b4eee2")
+	)
+	(label "CAN1_CONN_P"
+		(at 256.54 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1eab105-e52b-411a-96a5-f235aa82cdea")
+	)
+	(label "CAN0_CONN_N"
+		(at 254 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad7987df-a844-47fd-ab54-501e2c59c02c")
+	)
+	(label "CAN1_CONN_N"
+		(at 254 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd1a044c-5199-4a4a-b498-126a3c78ce8b")
+	)
+	(label "CAN0_P"
+		(at 172.72 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da975e16-9964-4e90-92b7-fc178f7cb179")
 	)
 	(global_label "P4_14{slash}CAN0_STB"
 		(shape bidirectional)
