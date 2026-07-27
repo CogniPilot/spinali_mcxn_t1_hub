@@ -14,4 +14,6 @@
   (lib (name "Connectors")(type "KiCad")(uri "${SPINALI_SYMBOL_DIR}/Connectors.kicad_sym")(options "")(descr ""))
   (lib (name "TVS")(type "KiCad")(uri "${SPINALI_SYMBOL_DIR}/TVS.kicad_sym")(options "")(descr ""))
   (lib (name "Transistors")(type "KiCad")(uri "${SPINALI_SYMBOL_DIR}/Transistors.kicad_sym")(options "")(descr ""))
+  (lib (name "Connectors2")(type "KiCad")(uri "${MR_SYMBOL_DIR}/Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "Diodes2")(type "KiCad")(uri "${MR_SYMBOL_DIR}/Diodes.kicad_sym")(options "")(descr ""))
 )

@@ -497,7 +497,8 @@
       "Resistors",
       "Connectors",
       "TVS",
-      "Transistors"
+      "Transistors",
+      "Connectors2"
     ]
   },
   "meta": {
@@ -770,7 +771,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${QUANTITY}"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
