@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.25,
-          "width": 0.25
+          "height": 0.85,
+          "width": 0.35
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -720,7 +720,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "production\\bom_mcxn_t1.csv",
+    "bom_export_filename": "production\\spinali_mcxn_t1_hub-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
