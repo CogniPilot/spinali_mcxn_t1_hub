@@ -5,12 +5,13 @@
 	(uuid "c53aeca7-9661-40f7-a17e-e1abd827ac33")
 	(paper "A3")
 	(title_block
-		(title "MR-MCXN-T1")
-		(date "2026-07-27")
-		(rev "X1")
-		(company "NXP SEMICONDUCTORS B.V.")
-		(comment 1 "DESIGNER: YOURI TILS")
-		(comment 2 "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN")
+		(title "${TITLE}")
+		(date "2026-08-24")
+		(rev "${BOARD_REV}")
+		(company "${COMPANY}")
+		(comment 1 "DESIGNER: ${DESIGNER}")
+		(comment 2 "${DEPARTMENT}")
+		(comment 3 "REVIEWED BY: ${REVIEWER}")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -6577,7 +6578,7 @@
 			(uuid "977f8101-f8c7-457c-b782-5834e9ed4ce9")
 		)
 		(instances
-			(project ""
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "D14")
 					(unit 1)
@@ -8167,7 +8168,7 @@
 			(uuid "fc97a4d2-0f31-4e9d-af98-734c3740838a")
 		)
 		(instances
-			(project ""
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R46")
 					(unit 1)
@@ -8273,7 +8274,7 @@
 			(uuid "cddfa1f1-4ad9-4402-a507-70f203bbc7f9")
 		)
 		(instances
-			(project ""
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R34")
 					(unit 1)
@@ -9233,7 +9234,7 @@
 			(uuid "9f147971-8c0c-43ce-abe1-ab23cf336ccc")
 		)
 		(instances
-			(project ""
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R43")
 					(unit 1)
@@ -10324,7 +10325,7 @@
 			(uuid "89cf2dd7-ae34-4da4-80f3-3a62f58e3d41")
 		)
 		(instances
-			(project ""
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "L10")
 					(unit 1)
@@ -10562,7 +10563,7 @@
 			(uuid "cddfa1f1-4ad9-4402-a507-70f203bbc7fa")
 		)
 		(instances
-			(project ""
+			(project "spinali_mcxn_t1_hub"
 				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db/a20b3bd6-c7b2-46ff-9591-ca80b372e5a4"
 					(reference "R33")
 					(unit 1)

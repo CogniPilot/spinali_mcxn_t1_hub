@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.85,
-          "width": 0.35
+          "drill": 3.2,
+          "height": 5.6,
+          "width": 5.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -135,7 +135,7 @@
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 1.0,
-        "min_text_thickness": 0.153,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
@@ -893,5 +893,12 @@
       "Ethernet PHY"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BOARD_REV": "A",
+    "COMPANY": "NXP SEMICONDUCTORS B.V.",
+    "DEPARTMENT": "CTO SYSTEM INNOVATIONS / MOBILE ROBOTICS DOMAIN",
+    "DESIGNER": "YOURI TILS",
+    "REVIEWER": "JARI VAN EWIJK",
+    "TITLE": "MR-MCXN-T1"
+  }
 }
