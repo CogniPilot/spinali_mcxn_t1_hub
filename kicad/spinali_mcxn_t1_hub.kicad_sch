@@ -39,6 +39,48 @@
 		(uuid "c7daae81-4b6d-4b02-8706-d9b961b70b9c")
 	)
 	(sheet
+		(at 50.8 39.37)
+		(size 40.64 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05c00aa4-b69a-47e3-93dc-d905505c6162")
+		(property "Sheetname" "Block Diagram"
+			(at 50.8 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_diagram_sch.kicad_sch"
+			(at 50.8 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "spinali_mcxn_t1_hub"
+				(path "/8b469ec1-e800-4d46-8a32-95d77ceae6db"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 50.8 128.27)
 		(size 40.64 5.08)
 		(exclude_from_sim no)

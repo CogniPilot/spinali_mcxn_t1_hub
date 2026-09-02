@@ -891,6 +891,10 @@
     [
       "a20b3bd6-c7b2-46ff-9591-ca80b372e5a4",
       "Ethernet PHY"
+    ],
+    [
+      "05c00aa4-b69a-47e3-93dc-d905505c6162",
+      "Block Diagram"
     ]
   ],
   "text_variables": {
