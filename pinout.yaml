@@ -46,11 +46,11 @@ overviews:
       - {conn: main/RGB, x: 0.932, y: 0.304, side: right, label: "CKO Clock out"}
       - {conn: main/RGB, x: 0.929, y: 0.257, side: right, label: "SDO Data out"}
       - {conn: main/RGB, x: 0.927, y: 0.212, side: right, label: "G Ground"}
-      - {conn: main/J1, hidden: "bottom view"}
-      - {conn: main/J2, hidden: "bottom view"}
-      - {conn: main/J5, hidden: "bottom view"}
-      - {conn: main/J13, hidden: "bottom view"}
-      - {conn: main/SW1, hidden: "bottom view"}
+      - {conn: main/J1, hidden: "bottom side"}
+      - {conn: main/J2, hidden: "bottom side"}
+      - {conn: main/J5, hidden: "bottom side"}
+      - {conn: main/J13, hidden: "bottom side"}
+      - {conn: main/SW1, hidden: "bottom side"}
   bottom:
     photo: T1HUB_BOTTOM.JPG
     crop: [0.01, 0.01, 0.99, 0.99]
@@ -63,7 +63,7 @@ overviews:
       - {conn: main/J3, x: 0.899, y: 0.317, side: right, label: "J3 CAN0 (bottom)"}
       - {conn: main/J5, x: 0.287, y: 0.888, side: bottom}
       - {conn: main/SW1, x: 0.533, y: 0.628, side: bottom}
-      - {conn: main/J13, hidden: "not fitted on the pictured board, bottom right corner"}
+      - {conn: main/J13, hidden: "new in the current revision, bottom right corner (the photo shows the old revision)"}
 
 connectors:
   # ------------------------------------------------------------------ power + Ethernet

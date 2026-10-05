@@ -47,7 +47,7 @@ shown too. Pin 1 is the square pad.
 <!-- /overview -->
 
 <!-- overview-list:top -->
-Not visible here: [J1 VIN + T1](#hub-j1-vin--t1) (bottom view) · [J2 USB](#hub-other-connectors) (bottom view) · [J5 DEBUG](#hub-j5-debug) (bottom view) · [J13 RTC_BAT](#hub-j13-rtc_bat) (bottom view) · [SW1 ISP](#buttons-and-switches) (bottom view)
+Bottom side: [J1 VIN + T1](#hub-j1-vin--t1) · [J2 USB](#hub-other-connectors) · [J5 DEBUG](#hub-j5-debug) · [J13 RTC_BAT](#hub-j13-rtc_bat) · [SW1 ISP](#buttons-and-switches).
 <!-- /overview-list -->
 
 Bottom side, with the power and Ethernet connector, USB, debug port and the bottom CAN connectors:
@@ -58,6 +58,10 @@ Bottom side, with the power and Ethernet connector, USB, debug port and the bott
   <img alt="MR-MCXN-T1 Hub bottom view with connector labels" src="images/overview-bottom.svg" width="880" height="660">
 </picture>
 <!-- /overview -->
+
+<!-- overview-list:bottom -->
+New in the current revision, bottom right corner (the photo shows the old revision): [J13 RTC_BAT](#hub-j13-rtc_bat).
+<!-- /overview-list -->
 
 ## Connector index
 
@@ -154,7 +158,7 @@ Pin 1 is a 3.3 V reference output for the probe. Pins 2 and 3 are FlexComm 1 as 
 <!-- pinout:main/J8 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/main-J8-dark.svg">
-  <img alt="Hub J8 B2B POWER + IO pinout" src="images/main-J8.svg" width="1105" height="985">
+  <img alt="Hub J8 B2B POWER + IO pinout" src="images/main-J8.svg" width="880" height="784">
 </picture>
 
 Together with J9 this is the interface for the add-on boards (camera, audio, SDIO, mikroBUS, display, ADC, IO). Odd pins are one row, even pins the other, pin 1 at the cut corner. Limits from the schematic: 300 mA per pin, 5 V rail 1 A, 3.3 V rail 500 mA, 1.8 V rail 200 mA. Pin 11 is the RTC backup supply, shared with J13. The FlexComm blocks (FC2, FC4, FC6) can each be a UART, SPI or I2C. The grey chips list the other functions of each pad.
@@ -170,7 +174,7 @@ Together with J9 this is the interface for the add-on boards (camera, audio, SDI
 <!-- pinout:main/J9 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/main-J9-dark.svg">
-  <img alt="Hub J9 B2B SDHC + IO pinout" src="images/main-J9.svg" width="1157" height="961">
+  <img alt="Hub J9 B2B SDHC + IO pinout" src="images/main-J9.svg" width="880" height="731">
 </picture>
 
 Second add-on connector. No power pins here, all supplies are on J8. Every signal pin has more than one job, that is the point of this interface. The SDHC0 pins carry an 8-bit SD or eMMC interface, but the same pads are FlexComm 9 (P0 to P6), so an add-on board can use them as one more UART, SPI or I2C instead. The SmartDMA pins are a parallel camera port and double as FlexComm 6 and 7 lines or PWM0 outputs. FC0, FC3 and FC7 can each be a UART, SPI or I2C. Pin 44 is also the IMU sync input. The grey chips list the other functions of each pad.
@@ -248,7 +252,8 @@ Test pads on the bottom side: CLK is the PHY reference clock (P1_4), GND is grou
   the CAN termination resistors are not fitted.
 - The board runs from the battery on J1 or from USB. 5 V, 3.3 V and 1.8 V for an add-on board
   come from J8.
-- The photos show a prototype marked X-MR-MCXN-T1. Its RTC battery connector J13 is not fitted.
+- The photos show the old revision, marked X-MR-MCXN-T1. The RTC battery connector J13 was
+  added in the current revision, in the bottom right corner of the bottom side.
 
 > [!WARNING]
 > Never feed power into the 5 V, 3.3 V or 1.8 V pins of J8, or into pin 1 of the debug port. Power the board through J1 or USB only.
