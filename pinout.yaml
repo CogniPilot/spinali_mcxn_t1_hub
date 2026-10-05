@@ -1,0 +1,393 @@
+# Pinout data for the MR-MCXN-T1 Hub hardware reference. The cards, photos and tables are generated from this file.
+
+meta:
+  title: MR-MCXN-T1 Hub hardware reference
+  short_title: MR-MCXN-T1 Hub
+  soc: MCXN947
+  strip_pad_prefix: true
+
+categories:
+  vin:   {label: "VIN 3S-12S",      fill: "#8b1a1a", dark: "#f85149"}
+  5v:    {label: "5 V",             fill: "#d1242f", dark: "#ff7b72"}
+  3v3:   {label: "3.3 V",           fill: "#bc4c00", dark: "#f0883e"}
+  1v8:   {label: "1.8 V",           fill: "#8a5a00", dark: "#d4a72c"}
+  rtc:   {label: "RTC backup",      fill: "#7d4e00", dark: "#e3b341"}
+  gnd:   {label: "GND",             fill: "#1f2328", dark: "#6e7681"}
+  uart:  {label: "UART",            fill: "#0969da", dark: "#58a6ff"}
+  fc:    {label: "FlexComm (UART, SPI, I2C)", fill: "#0969da", dark: "#58a6ff"}
+  i2c:   {label: "I2C / I3C",       fill: "#8250df", dark: "#bc8cff"}
+  spi:   {label: "SPI",             fill: "#1a7f37", dark: "#3fb950"}
+  sdio:  {label: "SDHC",            fill: "#3b3b8f", dark: "#a5b4fc"}
+  pwm:   {label: "PWM / timer",     fill: "#9a6700", dark: "#d29922"}
+  can:   {label: "CAN FD",          fill: "#0a7c86", dark: "#39c5cf"}
+  usb:   {label: "USB",             fill: "#a40e6b", dark: "#f778ba"}
+  eth:   {label: "Ethernet",        fill: "#116329", dark: "#56d364"}
+  debug: {label: "SWD / JTAG",      fill: "#57606a", dark: "#8b949e"}
+  boot:  {label: "Boot mode",       fill: "#bf3989", dark: "#f778ba"}
+  gpio:  {label: "GPIO / misc",     fill: "#6e7781", dark: "#8b949e"}
+  adc:   {label: "Analog",          fill: "#bf3989", dark: "#ff9bce"}
+  nc:    {label: "NC / key",        fill: "#eaeef2", dark: "#30363d", text: "#57606a"}
+
+boards:
+  main: {name: "MR-MCXN-T1 Hub", short: Hub, tag: "hub board"}
+
+overviews:
+  top:
+    photo: T1HUB_TOP.JPG
+    crop: [0.02, 0.02, 0.99, 0.95]
+    max_px: 1100
+    alt: "MR-MCXN-T1 Hub top view with connector labels"
+    callouts:
+      - {conn: main/RGB, x: 0.877, y: 0.254, side: top, label: "U14 RGB LED"}
+      - {conn: main/J9, x: 0.551, y: 0.123, side: top}
+      - {conn: main/J8, x: 0.754, y: 0.376, side: right}
+      - {conn: main/J3, x: 0.914, y: 0.633, side: right, label: "J4 CAN0 (top)"}
+      - {conn: main/J6, x: 0.754, y: 0.839, side: bottom, label: "J7 CAN1 (top)"}
+      - {conn: main/RGB, x: 0.932, y: 0.304, side: right, label: "CKO Clock out"}
+      - {conn: main/RGB, x: 0.929, y: 0.257, side: right, label: "SDO Data out"}
+      - {conn: main/RGB, x: 0.927, y: 0.212, side: right, label: "G Ground"}
+      - {conn: main/J1, hidden: "bottom view"}
+      - {conn: main/J2, hidden: "bottom view"}
+      - {conn: main/J5, hidden: "bottom view"}
+      - {conn: main/J13, hidden: "bottom view"}
+      - {conn: main/SW1, hidden: "bottom view"}
+  bottom:
+    photo: T1HUB_BOTTOM.JPG
+    crop: [0.01, 0.01, 0.99, 0.99]
+    max_px: 1100
+    alt: "MR-MCXN-T1 Hub bottom view with connector labels"
+    callouts:
+      - {conn: main/J1, x: 0.282, y: 0.164, side: top}
+      - {conn: main/J2, x: 0.525, y: 0.144, side: top}
+      - {conn: main/J6, x: 0.730, y: 0.128, side: top, label: "J6 CAN1 (bottom)"}
+      - {conn: main/J3, x: 0.899, y: 0.317, side: right, label: "J3 CAN0 (bottom)"}
+      - {conn: main/J5, x: 0.287, y: 0.888, side: bottom}
+      - {conn: main/SW1, x: 0.533, y: 0.628, side: bottom}
+      - {conn: main/J13, hidden: "not fitted on the pictured board, bottom right corner"}
+
+connectors:
+  # ------------------------------------------------------------------ power + Ethernet
+  - ref: J1
+    board: main
+    name: VIN + T1
+    cat: vin
+    function: "Battery input 3S to 12S and 100BASE-T1 Ethernet on one cable"
+    type: "Molex Micro-Lock Plus 1x4 (505578-0421), 1.25 mm, side entry"
+    source: "kicad/power_supplies.kicad_sch, kicad/ethernet_phy.kicad_sch"
+    layout: single
+    notes: >
+      Pin 1 takes the battery, 3S to 12S (about 9 to 50 V), 10 W budget. An ideal diode
+      (LM74700) blocks reverse polarity, a buck converter makes 5 V from it, and 3.3 V and 1.8 V
+      come from the 5 V rail. The 5 V rail switches on above about 8 V. Pins 2 and 3 are the
+      100BASE-T1 pair, one twisted pair to the TJA1103 PHY. The PHY is the link slave (R41
+      fitted); remove R41 to make it the master. The other end of the T1 link must be the
+      master. Mating parts from the schematic: socket 505570-0401, crimp 505572-1100, pre-crimped
+      wires 217500-1125 (black) and 217500-2125 (red).
+    alerts:
+      - {type: caution, text: "Pin 1 is the only power input besides USB. Keep the battery above 3S, the board does not start below about 8 V."}
+    pins:
+      - {n: 1, net: "+BATT",       cat: vin, label: "VIN 3S-12S", tag: "ideal diode, reverse polarity safe"}
+      - {n: 2, net: ENET0_TRX_P,   cat: eth, label: "T1 TRX+", via: "TJA1103 PHY"}
+      - {n: 3, net: ENET0_TRX_N,   cat: eth, label: "T1 TRX-", via: "TJA1103 PHY"}
+      - {n: 4, net: GND,           cat: gnd, label: "GND"}
+
+  # ------------------------------------------------------------------ USB
+  - ref: J2
+    board: main
+    name: USB
+    cat: usb
+    function: "USB 2.0 high-speed device port"
+    type: "USB Type-C receptacle (USB4105-GF-A)"
+    source: "kicad/mcu_usb_power.kicad_sch"
+    layout: summary
+    summary: "On USB1 of the MCXN947 (high speed). The board is always a USB device (CC pull-downs). VBUS powers the board through load switch U2 when no battery is connected. With SW1 held at power up the boot ROM listens here for ISP programming."
+
+  # ------------------------------------------------------------------ CAN
+  - ref: J3
+    board: main
+    name: CAN0
+    cat: can
+    function: "CAN FD bus 0 (TJA1462), two connectors in parallel"
+    type: "JST-GH 1x4, J3 on the bottom side and J4 on the top side"
+    standard: "DS-009 CAN"
+    source: "kicad/communication.kicad_sch"
+    bridge:
+      name: TJA1462
+      role: "CAN FD transceiver"
+      map:
+        - {net: CAN0_CONN_P, port_in: CANH, port_out: TXD, label: "CAN0 TX", pad: P4_13, alt: [CAN0_TXD, FC2_P1, CT4_MAT1]}
+        - {net: CAN0_CONN_N, port_in: CANL, port_out: RXD, label: "CAN0 RX", pad: P4_12, alt: [CAN0_RXD, FC2_P0, CT4_MAT0]}
+    flags: ["120 Ω termination: not fitted"]
+    layout: single
+    notes: >
+      J3 (bottom) and J4 (top) carry the same bus, so one cable can come in and another go
+      out. The transceiver runs from 5 V and talks to the chip at 3.3 V. Drive P4_14 (CAN0_STB)
+      low to enable it. The split termination (R27, R28 and C70) is not fitted, so the bus
+      must be terminated elsewhere, or fit the parts if the hub is one end of the bus.
+    alerts:
+      - {type: note, text: "Pin 1 is not powered. It is only linked between J3 and J4, so a 5 V supply on one cable passes to the other."}
+    pins:
+      - {n: 1, net: NC,          cat: nc,  label: "5V pass-through", tag: "J3.1 to J4.1 only"}
+      - {n: 2, net: CAN0_CONN_P, cat: can, label: "CAN H"}
+      - {n: 3, net: CAN0_CONN_N, cat: can, label: "CAN L"}
+      - {n: 4, net: GND,         cat: gnd}
+
+  - ref: J6
+    board: main
+    name: CAN1
+    cat: can
+    function: "CAN FD bus 1 (TJA1462), two connectors in parallel"
+    type: "JST-GH 1x4, J6 on the bottom side and J7 on the top side"
+    standard: "DS-009 CAN"
+    source: "kicad/communication.kicad_sch"
+    bridge:
+      name: TJA1462
+      role: "CAN FD transceiver"
+      map:
+        - {net: CAN1_CONN_P, port_in: CANH, port_out: TXD, label: "CAN1 TX", pad: P4_16, alt: [CAN1_TXD, FC2_P2, CT3_MAT0]}
+        - {net: CAN1_CONN_N, port_in: CANL, port_out: RXD, label: "CAN1 RX", pad: P4_15, alt: [CAN1_RXD, CT4_MAT3]}
+    flags: ["120 Ω termination: not fitted"]
+    layout: single
+    notes: >
+      Same circuit as CAN0. J6 (bottom) and J7 (top) carry the same bus. Drive P4_17 (CAN1_STB)
+      low to enable the transceiver. The split termination (R30, R31 and C75) is not fitted.
+    alerts:
+      - {type: note, text: "Pin 1 is not powered. It is only linked between J6 and J7, so a 5 V supply on one cable passes to the other."}
+    pins:
+      - {n: 1, net: NC,          cat: nc,  label: "5V pass-through", tag: "J6.1 to J7.1 only"}
+      - {n: 2, net: CAN1_CONN_P, cat: can, label: "CAN H"}
+      - {n: 3, net: CAN1_CONN_N, cat: can, label: "CAN L"}
+      - {n: 4, net: GND,         cat: gnd}
+
+  # ------------------------------------------------------------------ debug
+  - ref: J5
+    board: main
+    name: DEBUG
+    cat: debug
+    function: "SWD, JTAG and console, DS-009 debug full layout"
+    type: "JST-SH 1x10"
+    standard: "DS-009 debug full"
+    level: "3.3 V logic"
+    source: "kicad/communication.kicad_sch"
+    layout: single
+    notes: >
+      Pin 1 is a 3.3 V reference output for the probe. Pins 2 and 3 are FlexComm 1 as a UART
+      console. Pins 4 to 7 are the SWD and JTAG lines of the MCXN947, pin 8 is a spare GPIO for
+      the probe, pin 9 is the chip reset, pulled up on the board.
+    alerts:
+      - {type: warning, text: "Pin 1 is a reference output, not a supply input. Never power the board from it."}
+    pins:
+      - {n: 1,  net: "+3.3V",    cat: 3v3,   label: "VREF 3.3V"}
+      - {n: 2,  net: "P0_25/FC1_P1_UART_TXD", cat: uart,  label: "UART TX", pad: P0_25, alt: [FC1_P1, CT0_MAT1, ADC0_B17]}
+      - {n: 3,  net: "P0_24/FC1_P0_UART_RXD", cat: uart,  label: "UART RX", pad: P0_24, alt: [FC1_P0, CT0_MAT0, ADC0_B16]}
+      - {n: 4,  net: "P0_0/DEBUG_TMS_SWDIO",  cat: debug, label: "SWDIO",   pad: P0_0, alt: [TMS]}
+      - {n: 5,  net: "P0_1/DEBUG_TCLK_SWCLK", cat: debug, label: "SWCLK",   pad: P0_1, alt: [TCK]}
+      - {n: 6,  net: "P0_2/DEBUG_TDO_SWO",    cat: debug, label: "SWO",     pad: P0_2, alt: [TDO]}
+      - {n: 7,  net: "P0_3/DEBUG_TDI",        cat: debug, label: "TDI",     pad: P0_3, tag: "JTAG only"}
+      - {n: 8,  net: "P0_4/DEBUG_GPIO",       cat: gpio,  label: "GPIO",    pad: P0_4, alt: [FC0_P0, CT0_MAT2]}
+      - {n: 9,  net: RESET_b,    cat: gpio,  label: "nRST", tag: "chip reset, active low"}
+      - {n: 10, net: GND,        cat: gnd}
+
+  # ------------------------------------------------------------------ board-to-board
+  - ref: J8
+    board: main
+    name: B2B POWER + IO
+    cat: fc
+    function: "Add-on board connector 1: power rails and FlexComm, I3C, analog and trace pins"
+    type: "Hirose DF40 50-pin header, 0.4 mm pitch, 3.0 mm stack (DF40TC(3.0)-50DP-0.4V)"
+    source: "kicad/board-to-board.kicad_sch"
+    level: "3.3 V logic"
+    layout: b2b
+    bands:
+      - {from: 1,  to: 12, left: "POWER | 5V, 3.3V, RTC backup", right: "POWER | 5V, 3.3V"}
+      - {from: 13, to: 18, left: "POWER | 1.8V",                 right: "I3C | I3C1 SDA, SCL"}
+      - {from: 19, to: 38, left: "FLEXCOMM | FC2",               right: "FLEXCOMM | FC4, FC6"}
+      - {from: 39, to: 42, left: "ANALOG | ANA_22, ANA_6",       right: "FLEXCOMM | FC6"}
+      - {from: 43, to: 50, left: "FLEXIO | D7, D29",             right: "TRACE | DATA2, DATA3"}
+    notes: >
+      Together with J9 this is the interface for the add-on boards (camera, audio, SDIO,
+      mikroBUS, display, ADC, IO). Odd pins are one row, even pins the other, pin 1 at the cut corner. Limits from the
+      schematic: 300 mA per pin, 5 V rail 1 A, 3.3 V rail 500 mA, 1.8 V rail 200 mA. Pin 11
+      is the RTC backup supply, shared with J13. The FlexComm blocks (FC2, FC4, FC6) can each
+      be a UART, SPI or I2C. The grey chips list the other functions of each pad.
+    alerts:
+      - {type: tip, text: "The add-on board designs are in the spinali_mcxn_t1_shields repository, linked from the main README."}
+    pins:
+      - {n: 1, net: "GND", cat: gnd}
+      - {n: 2, net: "GND", cat: gnd}
+      - {n: 3, net: "+5V", cat: 5v, label: "5V"}
+      - {n: 4, net: "+5V", cat: 5v, label: "5V"}
+      - {n: 5, net: "+5V", cat: 5v, label: "5V"}
+      - {n: 6, net: "+5V", cat: 5v, label: "5V"}
+      - {n: 7, net: "GND", cat: gnd}
+      - {n: 8, net: "GND", cat: gnd}
+      - {n: 9, net: "+3V3", cat: 3v3, label: "3.3V"}
+      - {n: 10, net: "+3V3", cat: 3v3, label: "3.3V"}
+      - {n: 11, net: "VDD_BAT", cat: rtc, label: "RTC backup"}
+      - {n: 12, net: "GND", cat: gnd}
+      - {n: 13, net: "GND", cat: gnd}
+      - {n: 14, net: "P1_8/I3C1_SDA/FC4_P0", cat: i2c, alt: [FC5_P4, ADC1_A8, CT_INP8, FLEXIO0_D16], pad: P1_8}
+      - {n: 15, net: "GND", cat: gnd}
+      - {n: 16, net: "P1_9/I3C1_SCL/FC4_P1", cat: i2c, alt: [FC5_P5, ADC1_A9, CT_INP9, FLEXIO0_D17], pad: P1_9}
+      - {n: 17, net: "+1V8", cat: 1v8, label: "1.8V"}
+      - {n: 18, net: "GND", cat: gnd}
+      - {n: 19, net: "GND", cat: gnd}
+      - {n: 20, net: "P1_22/FC4_P2", cat: fc, alt: [FC5_P6, ADC1_A22, CT_INP14, FLEXIO0_D30, SCT0_OUT4], pad: P1_22}
+      - {n: 21, net: "P4_0/FC2_P0", cat: fc, alt: [CT_INP16], pad: P4_0}
+      - {n: 22, net: "P1_23/FC4_P3", cat: fc, alt: [ADC1_A23, CT_INP15, FLEXIO0_D31, SCT0_OUT5], pad: P1_23}
+      - {n: 23, net: "P4_1/FC2_P1", cat: fc, alt: [CT_INP17], pad: P4_1}
+      - {n: 24, net: "GND", cat: gnd}
+      - {n: 25, net: "GND", cat: gnd}
+      - {n: 26, net: "P3_1/FC6_P0", cat: fc, alt: [FC7_P6, CT_INP17, PWM0_B0, FLEXIO0_D9], pad: P3_1}
+      - {n: 27, net: "P4_2/FC2_P2", cat: fc, alt: [ADC0_A4, ADC1_A4, DAC0_OUT, CT_INP12], pad: P4_2}
+      - {n: 28, net: "P3_6/FC6_P1", cat: fc, alt: [CT4_MAT2, PWM0_A1, FLEXIO0_D14, SAI1_MCLK], pad: P3_6}
+      - {n: 29, net: "P4_3/FC2_P3", cat: fc, alt: [ADC0_B4, ADC1_B4, DAC1_OUT, CT_INP13], pad: P4_3}
+      - {n: 30, net: "GND", cat: gnd}
+      - {n: 31, net: "GND", cat: gnd}
+      - {n: 32, net: "P3_10/FC6_P2", cat: fc, alt: [FC7_P4, CT1_MAT0, PWM0_A3, FLEXIO0_D18, SAI0_TXD0], pad: P3_10}
+      - {n: 33, net: "P4_23/FC2_P6", cat: fc, alt: [ADC0_A2, ADC0_B2, ADC1_B3, OPAMP2_OUT, CT2_MAT3], pad: P4_23}
+      - {n: 34, net: "P3_11/FC6_P3", cat: fc, alt: [FC7_P5, CT1_MAT1, PWM0_B3, FLEXIO0_D19, SAI0_RXD0], pad: P3_11}
+      - {n: 35, net: "P4_20/FC2_P4", cat: fc, alt: [ADC1_A6, OPAMP2_INP0, CT2_MAT0, FLEXIO0_D28], pad: P4_20}
+      - {n: 36, net: "GND", cat: gnd}
+      - {n: 37, net: "GND", cat: gnd}
+      - {n: 38, net: "P3_18/FC6_P6", cat: fc, alt: [CT2_MAT0, PWM1_X0, FLEXIO0_D26, SAI1_RX_BCLK], pad: P3_18}
+      - {n: 39, net: "ANA_22/OPAMP2_INN", cat: adc, pad: ANA_22}
+      - {n: 40, net: "P3_13/FC6_P5", cat: fc, alt: [FC7_P5, CT1_MAT3, PWM1_B0, FLEXIO0_D21, SAI0_TXD1], pad: P3_13}
+      - {n: 41, net: "ANA_6/DAC2_OUT", cat: adc, alt: [ADC0_A3, ADC1_A3], pad: ANA_6}
+      - {n: 42, net: "GND", cat: gnd}
+      - {n: 43, net: "GND", cat: gnd}
+      - {n: 44, net: "P2_10/TRACE_DATA2", cat: gpio, alt: [PWM1_X2, FLEXIO0_D18, SAI1_RXD1, SCT0_IN4], pad: P2_10}
+      - {n: 45, net: "P0_23/FLEXIO0_D7", cat: gpio, alt: [FC1_P3, ADC0_A15, CT_INP3], pad: P0_23}
+      - {n: 46, net: "P2_11/TRACE_DATA3", cat: gpio, alt: [PWM1_X3, FLEXIO0_D19, SAI1_TXD1, SCT0_IN5], pad: P2_11}
+      - {n: 47, net: "P3_21/FLEXIO0_D29", cat: gpio, alt: [FC8_P5, FC6_P1, CT2_MAT3, PWM1_B3, SAI1_RXD0], pad: P3_21}
+      - {n: 48, net: NC, cat: nc, label: "NC"}
+      - {n: 49, net: "GND", cat: gnd}
+      - {n: 50, net: "GND", cat: gnd}
+
+  - ref: J9
+    board: main
+    name: B2B SDHC + IO
+    cat: sdio
+    function: "Add-on board connector 2: SDHC or FlexComm 9, SmartDMA or FlexComm 6/7, and more FlexComm pins"
+    type: "Hirose DF40 50-pin header, 0.4 mm pitch, 3.0 mm stack (DF40TC(3.0)-50DP-0.4V)"
+    source: "kicad/board-to-board.kicad_sch"
+    level: "3.3 V logic"
+    layout: b2b
+    bands:
+      - {from: 1,  to: 14, left: "SDHC or FLEXCOMM 9 | CMD, CLK, D0, D1 = FC9 P2, P0, P1, P3", right: "SMARTDMA or FLEXCOMM | PIO0 = FC7 P3, PIO7 to PIO9 = FC6 P6, P4, P5"}
+      - {from: 15, to: 30, left: "SDHC or FLEXCOMM 9 | D2, D3, D5 = FC9 P5, P4, P6",           right: "FLEXCOMM | FC3 P0 to P3, P6"}
+      - {from: 31, to: 42, left: "FLEXCOMM | FC7 P0 to P3",      right: "FLEXCOMM | FC3 P4, P5 and FC0 P0, P1"}
+      - {from: 43, to: 50, left: "FLEXCOMM | FC7 P6, P4",        right: "FLEXCOMM | FC0 P2 (IMU sync), P3, P6"}
+    notes: >
+      Second add-on connector. No power pins here, all supplies are on J8. Every signal pin
+      has more than one job, that is the point of this interface. The SDHC0 pins carry an 8-bit
+      SD or eMMC interface, but the same pads are FlexComm 9 (P0 to P6), so an add-on board can
+      use them as one more UART, SPI or I2C instead. The SmartDMA pins are a parallel camera
+      port and double as FlexComm 6 and 7 lines or PWM0 outputs. FC0, FC3 and FC7 can each be a
+      UART, SPI or I2C. Pin 44 is also the IMU sync input. The grey chips list the other
+      functions of each pad.
+    pins:
+      - {n: 1, net: "GND", cat: gnd}
+      - {n: 2, net: "GND", cat: gnd}
+      - {n: 3, net: "P2_5/SDHC0_CMD", cat: sdio, alt: [FC9_P2, PWM1_B1, FLEXIO0_D13, SAI0_TXD1, SCT0_OUT3], pad: P2_5}
+      - {n: 4, net: "P3_0/SmartDMA_PIO0", cat: gpio, alt: [FC7_P3, CT_INP16, PWM0_A0, FLEXIO0_D8], pad: P3_0}
+      - {n: 5, net: "P2_4/SDHC0_CLK", cat: sdio, alt: [FC9_P0, PWM1_A1, FLEXIO0_D12, SAI0_RXD1, SCT0_OUT2], pad: P2_4}
+      - {n: 6, net: "P3_7/SmartDMA_PIO7", cat: gpio, alt: [FC6_P6, FC7_P1, CT4_MAT3, PWM0_B1, FLEXIO0_D15], pad: P3_7}
+      - {n: 7, net: "GND", cat: gnd}
+      - {n: 8, net: "GND", cat: gnd}
+      - {n: 9, net: "P2_3/SDHC0_D0", cat: sdio, alt: [FC9_P1, PWM1_B2, FLEXIO0_D11, SAI0_RXD0, SCT0_OUT1], pad: P2_3}
+      - {n: 10, net: "P3_8/SmartDMA_PIO8", cat: gpio, alt: [FC6_P4, FC7_P0, CT_INP4, PWM0_A2, FLEXIO0_D16], pad: P3_8}
+      - {n: 11, net: "P2_2/SDHC0_D1", cat: sdio, alt: [FC9_P3, PWM1_A2, FLEXIO0_D10, SAI0_TXD0, SCT0_OUT0], pad: P2_2}
+      - {n: 12, net: "P3_9/SmartDMA_PIO9", cat: gpio, alt: [FC6_P5, FC7_P2, CT_INP5, PWM0_B2, FLEXIO0_D17], pad: P3_9}
+      - {n: 13, net: "GND", cat: gnd}
+      - {n: 14, net: "GND", cat: gnd}
+      - {n: 15, net: "P2_7/SDHC0_D2", cat: sdio, alt: [FC9_P5, PWM1_B0, FLEXIO0_D15, SAI0_TX_FS, SCT0_OUT5], pad: P2_7}
+      - {n: 16, net: "P1_0/FC3_P0", cat: fc, alt: [FC4_P4, ADC0_A16, CT_INP4, FLEXIO0_D8, SAI1_TX_BCLK], pad: P1_0}
+      - {n: 17, net: "P2_6/SDHC0_D3", cat: sdio, alt: [FC9_P4, PWM1_A0, FLEXIO0_D14, SAI0_TX_BCLK, SCT0_OUT4], pad: P2_6}
+      - {n: 18, net: "P1_1/FC3_P1", cat: fc, alt: [FC4_P5, ADC0_A17, CT_INP5, FLEXIO0_D9, SAI1_TX_FS], pad: P1_1}
+      - {n: 19, net: "GND", cat: gnd}
+      - {n: 20, net: "GND", cat: gnd}
+      - {n: 21, net: "P2_1/SDHC0_D4", cat: sdio, alt: [PWM1_B3, FLEXIO0_D9, SAI0_RX_FS, TRACE_CLK, SCT0_IN1], pad: P2_1}
+      - {n: 22, net: "P1_2/FC3_P2", cat: fc, alt: [FC4_P6, CAN0_TXD, ADC0_A18, CT1_MAT0], pad: P1_2}
+      - {n: 23, net: "P2_0/SDHC0_D5", cat: sdio, alt: [FC9_P6, PWM1_A3, FLEXIO0_D8, SAI0_RX_BCLK, SCT0_IN0], pad: P2_0}
+      - {n: 24, net: "P1_3/FC3_P3", cat: fc, alt: [CAN0_RXD, ADC0_A19, CT1_MAT1, FLEXIO0_D11], pad: P1_3}
+      - {n: 25, net: "GND", cat: gnd}
+      - {n: 26, net: "GND", cat: gnd}
+      - {n: 27, net: "P2_9/SDHC0_D6", cat: sdio, alt: [PWM1_X1, FLEXIO0_D17, SAI1_RXD0, TRACE_DATA1, SCT0_IN3], pad: P2_9}
+      - {n: 28, net: "P1_18/FC3_P6", cat: fc, alt: [FC5_P2, CAN0_TXD, ADC1_A18, CT3_MAT0], pad: P1_18}
+      - {n: 29, net: "P2_8/SDHC0_D7", cat: sdio, alt: [PWM1_X0, FLEXIO0_D16, SAI1_TXD0, TRACE_DATA0, SCT0_IN2], pad: P2_8}
+      - {n: 30, net: "GND", cat: gnd}
+      - {n: 31, net: "GND", cat: gnd}
+      - {n: 32, net: "P1_16/FC3_P4", cat: fc, alt: [FC5_P0, I3C1_SDA, ADC1_A16, CT_INP12], pad: P1_16}
+      - {n: 33, net: "P3_2/FC7_P0", cat: fc, alt: [CT4_MAT0, PWM0_X0, FLEXIO0_D10], pad: P3_2}
+      - {n: 34, net: "P1_17/FC3_P5", cat: fc, alt: [FC5_P1, I3C1_SCL, ADC1_A17, CT_INP13], pad: P1_17}
+      - {n: 35, net: "P3_3/FC7_P1", cat: fc, alt: [CT4_MAT1, PWM0_X1, FLEXIO0_D11], pad: P3_3}
+      - {n: 36, net: "GND", cat: gnd}
+      - {n: 37, net: "GND", cat: gnd}
+      - {n: 38, net: "P0_16/FC0_P0", cat: fc, alt: [I3C0_SDA, ADC0_A8, CT0_MAT0, FLEXIO0_D0, TSI0_CH11], pad: P0_16}
+      - {n: 39, net: "P3_4/FC7_P2", cat: fc, alt: [CT_INP18, PWM0_X2, FLEXIO0_D12], pad: P3_4}
+      - {n: 40, net: "P0_17/FC0_P1", cat: fc, alt: [I3C0_SCL, ADC0_A9, CT0_MAT1, FLEXIO0_D1, TSI0_CH12], pad: P0_17}
+      - {n: 41, net: "P3_5/FC7_P3", cat: fc, alt: [CT_INP19, PWM0_X3, FLEXIO0_D13], pad: P3_5}
+      - {n: 42, net: "GND", cat: gnd}
+      - {n: 43, net: "GND", cat: gnd}
+      - {n: 44, net: "P0_18/FC0_P2/IMU_SYNC", cat: fc, alt: [ADC0_A10, CT0_MAT2, FLEXIO0_D2, TSI0_CH13], pad: P0_18}
+      - {n: 45, net: "P3_19/FC7_P6", cat: fc, alt: [CT2_MAT1, PWM1_X1, FLEXIO0_D27, SAI1_RX_FS], pad: P3_19}
+      - {n: 46, net: "P0_7/FC0_P3", cat: fc, alt: [CT_INP3], pad: P0_7}
+      - {n: 47, net: "P3_12/FC7_P4", cat: fc, alt: [FC6_P4, CT1_MAT2, PWM1_A0, FLEXIO0_D20, SAI0_RXD1], pad: P3_12}
+      - {n: 48, net: "P0_22/FC0_P6", cat: fc, alt: [FC1_P2, ADC0_A14, CT_INP2, FLEXIO0_D6], pad: P0_22}
+      - {n: 49, net: "GND", cat: gnd}
+      - {n: 50, net: "GND", cat: gnd}
+
+  # ------------------------------------------------------------------ RGB LED chain
+  - ref: RGB
+    board: main
+    name: LED CHAIN
+    cat: spi
+    function: "Output of the on-board RGB LED, solder pads"
+    type: "Three pads marked CKO, SDO and G next to U14, 5 V logic"
+    source: "kicad/mcu_io_1.kicad_sch"
+    layout: single
+    notes: >
+      The MCU drives one SK9822 RGB LED (U14, APA102 compatible) from FlexIO pins P0_8 (data)
+      and P0_9 (clock). CKO and SDO are the clock and data outputs of that LED, so more LEDs of
+      the same type can be chained from here. The LED runs from 5 V, so its outputs are 5 V.
+    pins:
+      - {n: CKO, net: "P0_9/FLEXIO0_D1", cat: spi, label: "LED clock out", via: "RGB LED U14", pad: P0_9}
+      - {n: SDO, net: "P0_8/FLEXIO0_D0", cat: spi, label: "LED data out",  via: "RGB LED U14", pad: P0_8}
+      - {n: G,   net: GND, cat: gnd}
+
+  # ------------------------------------------------------------------ RTC battery
+  - ref: J13
+    board: main
+    name: RTC_BAT
+    cat: rtc
+    function: "Backup battery for the RTC"
+    type: "JST-SH 1x2, side entry"
+    source: "kicad/mcu_usb_power.kicad_sch"
+    layout: single
+    notes: >
+      Keeps the real-time clock of the MCXN947 running without main power. Fits the RPi RTC
+      battery (ML2020 with a 2-pin JST-SH plug). The same supply is on J8 pin 11 for the add-on
+      board. The board charges the cell from 3.3 V through D15 and a 75 Ω resistor.
+    alerts:
+      - {type: warning, text: "The board trickle-charges this cell. Use a rechargeable ML2020 type, never a CR2032 or other non-rechargeable cell."}
+    pins:
+      - {n: 1, net: GND,     cat: gnd}
+      - {n: 2, net: VDD_BAT, cat: rtc, label: "VBAT 3V", tag: "to MCU VBAT via D6"}
+
+  # ------------------------------------------------------------------ switches
+  - ref: SW1
+    board: main
+    name: ISP
+    cat: boot
+    function: "ISP boot button"
+    type: "Tactile switch, bottom side"
+    source: "kicad/mcu_io_1.kicad_sch"
+    layout: summary
+    summary: "Hold it while power comes up to start the boot ROM in ISP mode (P0_6 ISPMODE_N pulled low), for programming over USB or the debug UART. Normal boot otherwise."
+
+cheatsheet:
+  brand: MR-MCXN-T1 Hub
+  pages:
+    - {title: "MR-MCXN-T1 Hub", boards: [main], exclude: [J8, J9]}
+    - {title: "Board-to-board interface", boards: [main], refs: [J8, J9]}
